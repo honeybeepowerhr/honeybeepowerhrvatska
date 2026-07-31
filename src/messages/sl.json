@@ -1,0 +1,348 @@
+{
+  "nav": {
+    "products": "Izdelki",
+    "whereToBuy": "Kje kupiti",
+    "athletes": "Športniki",
+    "guides": "Vodniki",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "b2b": "Za partnerje"
+  },
+  "header": {
+    "freeShipping": "Brezplačna dostava nad {amount} €",
+    "search": "Iskanje",
+    "cart": "Košarica",
+    "cartItems": "{count} artiklov"
+  },
+  "search": {
+    "ariaLabel": "Iskanje po spletni trgovini",
+    "placeholder": "Iščite izdelke, vodnike ali strani...",
+    "closeLabel": "Zapri iskanje",
+    "hint": "Vnesite iskalni niz (npr. \"gel\", \"izotonik\", \"maraton\")",
+    "noResults": "Ni rezultatov za \"{query}\"",
+    "product": "Izdelek",
+    "guide": "Vodnik",
+    "page": "Stran"
+  },
+  "shopMode": {
+    "wholesaleTab": "Veleprodaja (Na veliko)",
+    "retailTab": "Maloprodaja (Majhna naročila)",
+    "wholesaleBadge": "Veleprodajna spletna trgovina — Nakup na veliko",
+    "retailBadge": "Majhna naročila (+10 € pakiranje/dostava)",
+    "minOrderNotice": "Najmanjše naročilo: {min} kos",
+    "retailSurchargeNotice": "Za majhna naročila se ob zaključku obračuna fiksni dodatek 10,00 € za pakiranje in dostavo.",
+    "packagingSurcharge": "Dodatek za pakiranje in dostavo",
+    "subtotal": "Vmesna vsota artiklov",
+    "moqWarning": "Najmanjša količina za veleprodajo je {min} kosov.",
+    "switchToRetail": "Preklopite na majhna naročila, če želite naročiti manj kot {min} kosov.",
+    "switchToWholesale": "Kupujete na veliko? Preklopite na veleprodajo za naročila z najmanjšimi količinami."
+  },
+  "hero": {
+    "heading": "Moč iz Narave. Zmogljivost brez Kompromisov.",
+    "subtitle": "Inovativni naravni energijski geli in izotonični napitki. Brez umetnih sladil, brez sukraloze — čist med, liofilizirano sadje in naravni elektroliti.",
+    "ctaPrimary": "Oglej si ponudbo izdelkov",
+    "ctaSecondary": "Poišči svoj izdelek v 5 vprašanjih",
+    "trustNoSucralose": "Brez sukraloze in dodatkov",
+    "trustFruit": "Liofilizirano sadje",
+    "trustHoney": "100% Naraven med",
+    "badgeHoney": "100% MED",
+    "athleteRating": "Ocena športnikov",
+    "reviewsCount": "Več kot 1.500+ ocen"
+  },
+  "whyHbp": {
+    "badge": "Zakaj Izbrati Honey Bee Power?",
+    "title": "100% Čiste Sestavine iz Domačih Čebelnjakov",
+    "subtitle": "Vaše telo si zasluži pravo hranilo, ne pa laboratorijskih sintetičnih sladkorjev in umetnih okusov.",
+    "reason1Title": "Domač cvetlični med",
+    "reason1Desc": "Popolno naravno razmerje glukoze in fruktoze za takojšen in dolgotrajen vir energije brez padcev sladkorja.",
+    "reason2Title": "Pravo liofilizirano sadje",
+    "reason2Desc": "Sušeno z zamrzovanjem za ohranitev vseh naravnih vitaminov, mineralov in svežega okusa brez umetnih arom.",
+    "reason3Title": "Nežno do želodca",
+    "reason3Desc": "Formulirano brez sukraloze in agresivnih konzervansov. Ne povzroča slabosti ali želodčnih krčev med tekmo.",
+    "reason4Title": "Naravni elektroliti",
+    "reason4Desc": "Obogateno s čisto morsko soljo in naravnim natrijem za maksimalno hidracijo in preprečevanje krčev."
+  },
+  "productOffer": {
+    "badge": "Naša Ponudba Izdelkov",
+    "title": "Uradni Honey Bee Power Izdelki",
+    "subtitle": "Sto odstotno naravna energijska goriva na osnovi medu, liofiliziranega sadja in naravnih elektrolitov.",
+    "viewAll": "Oglej si vse izdelke",
+    "gelBadge": "Energijski Gel",
+    "isoBadge": "Izotonični Napitek",
+    "addToCart": "Dodaj v košarico"
+  },
+  "activities": {
+    "badge": "Honey Bee Power v Akciji",
+    "title": "Dogodki in Terenske Aktivnosti"
+  },
+  "socialProof": {
+    "partnersBadge": "Zanesljiv partner vodilnih športnih klubov in tekem",
+    "badge": "Izkušnje Športnikov",
+    "title": "Kaj pravijo tisti, ki zmagujejo z nami?",
+    "followInstagram": "Sledi nam na Instagramu @planet__bio"
+  },
+  "b2bBlock": {
+    "badge": "Za Trgovine, Fitnese in Klube",
+    "title": "Želite Postati Uradni Partner ali Distributer?",
+    "subtitle": "Nudimo privlačne veleprodajne pogoje, hitro dostavo in marketinško podporo za fitnese, specializirane trgovine in športne klube.",
+    "cta": "Zahtevaj Veleprodajni Cenik"
+  },
+  "trust": {
+    "natural": "100% naravno",
+    "noSucralose": "Brez sukraloze",
+    "delivery": "Dostava 1–2 dni",
+    "croatianBrand": "Hrvaška blagovna znamka"
+  },
+  "product": {
+    "addToCart": "Dodaj v košarico",
+    "viewProduct": "Oglej si",
+    "from": "od",
+    "inStock": "Na zalogi",
+    "outOfStock": "Ni na voljo",
+    "reviews": "ocen"
+  },
+  "cart": {
+    "title": "Vaša Košarica",
+    "itemsCount": "{count} izdelkov",
+    "itemCountOne": "1 izdelek",
+    "empty": "Vaša košarica je prazna",
+    "emptySub": "Dodajte naravne gele ali izotonične napitke za maksimalno energijo.",
+    "viewProducts": "Ogled izdelkov",
+    "freeShippingReached": "🎉 Pridobili ste brezplačno dostavo!",
+    "freeShippingProgress": "Še {amount} do brezplačne dostave",
+    "total": "Skupaj:",
+    "checkoutBtn": "Pošlji povpraševanje",
+    "noImage": "Ni slike",
+    "perPiece": "€ / kos",
+    "remove": "Odstrani"
+  },
+  "checkout": {
+    "title": "Pošljite povpraševanje",
+    "subtitle": "Izpolnite podatke za dostavo — kontaktirali vas bomo s ponudbo, ceno in načinom plačila.",
+    "summaryTitle": "Povzetek povpraševanja",
+    "subtotal": "Informativni vmesni znesek",
+    "disclaimer": "Cena je informativna. Končno ponudbo, ceno dostave in način plačila se dogovorimo po prejemu povpraševanja.",
+    "replyNotice": "Običajno odgovorimo v 24 urah",
+    "noObligation": "Brez obveznosti plačila, dokler ne potrdite ponudbe",
+    "personalData": "Osebni podatki",
+    "fullName": "Ime in priimek",
+    "email": "E-pošta",
+    "phone": "Telefon (neobvezno)",
+    "shippingAddress": "Naslov za dostavo",
+    "address": "Ulica in hišna številka",
+    "city": "Mesto",
+    "postalCode": "Poštna številka",
+    "country": "Država",
+    "notesTitle": "Opomba ob povpraševanju",
+    "notesLabel": "Posebne opombe (neobvezno)",
+    "infoBanner": "To ni plačilo. Po posredovanju povpraševanja vas bomo kontaktirali s končno ponudbo.",
+    "submitBtn": "Pošlji povpraševanje",
+    "submittingBtn": "Pošiljam povpraševanje…",
+    "successTitle": "Povpraševanje prejeto!",
+    "successMessage": "Kmalu vas bomo kontaktirali na {email} s ponudbo.",
+    "termsAccept": "S posredovanjem povpraševanja sprejemate naše Pogoje uporabe in Politiko zasebnosti."
+  },
+  "footer": {
+    "products": "Izdelki",
+    "info": "Informacije",
+    "company": "Podjetje",
+    "contact": "Kontakt",
+    "rights": "Vse pravice pridržane",
+    "aboutText": "Naravna športna prehrana na osnovi medu in funkcionalnih sestavin.",
+    "energyGels": "Energijski geli",
+    "isotonicDrinks": "Izotonični napitki",
+    "whereToBuy": "Kje kupiti",
+    "faq": "Pogosta vprašanja",
+    "shippingPayment": "Dostava in plačilo",
+    "returns": "Pravica do vračila",
+    "privacy": "Politika zasebnosti",
+    "terms": "Pogoji uporabe",
+    "impressum": "Impresum",
+    "copyright": "© 2026 Honey Bee Power"
+  },
+  "newsletter": {
+    "title": "Naročite se na naš novičnik",
+    "subtitle": "Naročite se na novičnik in prvi izvedite za ekskluzivne ponudbe, nove okuse in nasvete za pripravo na tekme.",
+    "placeholder": "Vnesite vaš e-poštni naslov",
+    "submit": "Naroči se",
+    "success": "Hvala za prijavo!",
+    "successDetail": "Uspešno ste se naročili na naš novičnik ({email}).",
+    "privacy": "Spoštujemo vašo zasebnost. Odjavite se lahko kadarkoli."
+  },
+  "comparison": {
+    "heading": "Primerjava z industrijskimi geli",
+    "colFeature": "Značilnost",
+    "colHbp": "Honey Bee Power",
+    "colGeneric": "Generični geli",
+    "row1Feature": "Osnova ogljikovih hidratov",
+    "row1Hbp": "100% Naraven cvetlični med",
+    "row1Generic": "Sintetični maltodekstrin in glukoza",
+    "row2Feature": "Sladila",
+    "row2Hbp": "Brez dodanega sladkorja in sukraloze",
+    "row2Generic": "Sukraloza in umetni dodatki",
+    "row3Feature": "Aroma in okus",
+    "row3Hbp": "Pravo liofilizirano sadje",
+    "row3Generic": "Umetne arome in barvila",
+    "row4Feature": "Prebavljivost",
+    "row4Hbp": "Izjemno nežno do želodca",
+    "row4Generic": "Pogoste prebavne težave",
+    "row5Feature": "Glikemični indeks",
+    "row5Hbp": "Stabilen in uravnotežen val energije",
+    "row5Generic": "Hiter skok in hiter padec energije",
+    "row6Feature": "Antioksidanti in encimi",
+    "row6Hbp": "Bogato z naravnimi medenimi encimi",
+    "row6Generic": "Brez koristnih hranil"
+  },
+  "b2b": {},
+  "b2bPage": {
+    "badge": "B2B Partner Program",
+    "title": "Postanite Distributer ali Partner Honey Bee Power",
+    "subtitle": "Ponudite svojim strankam, tekmovalcem in članom kluba 100% naravno športno prehrano na osnovi medu. Nudimo privlačne veleprodajne pogoje in hitro dostavo.",
+    "benefit1Title": "Privlačne Veleprodajne Marže",
+    "benefit1Desc": "Posebni popusti na količino za trgovine, lekarne, fitnes centre in športne klube.",
+    "benefit2Title": "Hitra Logistika in Dostava",
+    "benefit2Desc": "Dostava iz skladišča v Našicah v 24–48 urah za Hrvaško in regijo.",
+    "benefit3Title": "Marketinška Podpora in POS",
+    "benefit3Desc": "Brezplačna promocijska gradiva, stojala za razstavo v trgovinah in vzorci za degustacijo.",
+    "formTitle": "Prijavnica za B2B Sodelovanje",
+    "companyLabel": "Ime podjetja ali obrti *",
+    "contactLabel": "Ime in priimek kontaktne osebe *",
+    "emailLabel": "E-poštni naslov *",
+    "phoneLabel": "Telefonska številka *",
+    "typeLabel": "Vrsta sodelovanja *",
+    "typeRetail": "Trgovina / Maloprodaja",
+    "typeDistributor": "Nacionalni Distributer",
+    "typeClub": "Športni Klub / Zveza",
+    "typeGym": "Fitnes Center",
+    "typeOther": "Ostalo",
+    "messageLabel": "Sporočilo in podrobnosti vprašanja *",
+    "submitBtn": "Pošlji B2B Zahtevo",
+    "successTitle": "Zahvaljujemo se za zanimanje!",
+    "successDesc": "Vaše B2B vprašanje je bilo uspešno prejeto. Naša prodajna ekipa vas bo kontaktirala v 24 delovnih urah."
+  },
+  "whereToBuyPage": {
+    "badge": "Prodajna Mesta",
+    "title": "Kje Kupiti Honey Bee Power?",
+    "subtitle": "Poiščite pooblaščene trgovine, lekarne in specializirane fitnes centre v vaši bližini.",
+    "listTitle": "Seznam Prodajnih Mest",
+    "shop": "Trgovina",
+    "pharmacy": "Lekarna",
+    "online": "Spletna trgovina",
+    "mapTitle": "Zemljevid Lokacij",
+    "mapSelectNotice": "Izberite prodajno mesto s seznama za podrobnosti",
+    "b2bNotice": "* Če želite postati partner ali uvrstiti vaše prodajno mesto, nas kontaktirajte na info@planetbio.hr"
+  },
+  "athletesPage": {
+    "badge": "Ekipna Moč",
+    "title": "Honey Bee Power Ambasadorji",
+    "subtitle": "Predstavljamo šampione, ki premikajo lastne meje s 100% naravno energijo medu.",
+    "achievementsTitle": "Rezultati in Dosežki"
+  },
+  "guidesPage": {
+    "badge": "Izobraževanje in Nasveti",
+    "title": "Vodiči za Prehrano in Športne Zmogljivosti",
+    "subtitle": "Naučite se pravilno časovno razporediti vnos energije, zaščititi želodec in doseči osebne rekorde.",
+    "readMore": "Preberi več →"
+  },
+  "filters": {
+    "title": "Filtri",
+    "clear": "Počisti filtre",
+    "category": "Kategorija",
+    "all": "Vse",
+    "energyGels": "Energetski geli",
+    "isotonicDrinks": "Izotonični napitki",
+    "wheyProteins": "Whey beljakovine",
+    "flavour": "Okus",
+    "activity": "Ciljna aktivnost",
+    "running": "Tek",
+    "cycling": "Kolesarjenje",
+    "fitness": "Fitnes",
+    "noResults": "Ni rezultatov",
+    "noResultsHeading": "Ni rezultatov za izbrane filtre",
+    "noResultsSub": "Poskusite odstraniti nekaj filtrov, da vidite več izdelkov.",
+    "productsCount": "{count} izdelkov"
+  },
+  "legal": {
+    "impressumTitle": "Impresum",
+    "companyName": "Ime podjetja:",
+    "companyNameVal": "Planet Bio d.o.o. za trgovino in storitve",
+    "address": "Sedež in naslov:",
+    "addressVal": "Krndijska ulica 4, 31500 Našice, Hrvaška",
+    "contactDetails": "Kontaktni podatki:",
+    "idData": "Identifikacijski podatki:",
+    "disclaimerNotice": "Opozorilo: Prehranska dopolnila in športna prehrana niso nadomestilo za uravnoteženo in raznoliko prehrano ter zdrav način življenja. Hraniti izven dosega otrok.",
+    "faqTitle": "Pogosta Vprašanja (FAQ)",
+    "faqBadge": "Pomoć in Podpora",
+    "shippingTitle": "Dostava in Plačilo",
+    "shippingNotice": "🚚 Brezplačna dostava: Za vsa naročila nad 50,00 € je dostava na Hrvaškem popolnoma brezplačna!",
+    "paymentMethodsTitle": "Načini Plačila",
+    "deliveryTermsTitle": "Roki Dostave"
+  },
+  "quiz": {
+    "badge": "Interaktivni kviz izdelkov",
+    "heading": "Poiščite svoj idealni izdelek v 5 vprašanjih",
+    "subheading": "Hitra analiza vašega treninga in glavnega cilja za 100% naravno energijo brez padcev.",
+    "questionOf": "Vprašanje {step} od {total}",
+    "percentDone": "{percent}% dokončano",
+    "prevQuestion": "Prejšnje vprašanje",
+    "close": "Zapri",
+    "resultsReady": "Vaše osebno priporočilo je izračunano!",
+    "categoryEnergyGel": "Energijski gel",
+    "categoryIsotonic": "Izotonična pijača",
+    "addToCart": "Dodaj v košarico",
+    "resetQuiz": "Znova rešite kviz",
+    "matchReasonEnergyGel": "Domači cvetlični med z liofiliziranim sadjem zagotavlja takojšen in dolgotrajen vir energije brez padcev.",
+    "matchReasonIsotonic": "Naravna izotonična pijača z medom in morsko soljo je idealna za hidracijo in preprečevanje krčev.",
+    "questions": {
+      "activity": {
+        "title": "1. S katero primarno športno aktivnostjo se ukvarjate?",
+        "subtitle": "Izberite aktivnost, za katero potrebujete energijo",
+        "options": {
+          "running": "Tek / Maraton 🏃‍♂️",
+          "cycling": "Kolesarjenje / Cestno & MTB 🚴‍♂️",
+          "hiking": "Pohodništvo / Outdoor ⛰️",
+          "fitness": "Fitnes / Crossfit 🏋️‍♂️"
+        }
+      },
+      "duration": {
+        "title": "2. Koliko običajno traja vaš trening ali tekma?",
+        "subtitle": "Trajanje aktivnosti določa optimalen vnos ogljikovih hidratov in elektrolitov",
+        "options": {
+          "short": "Do 45 minut",
+          "medium": "45 min – 90 minut",
+          "long": "1,5 h – 3 ure",
+          "ultra": "Več kot 3 ure / Ultramaraton"
+        }
+      },
+      "goal": {
+        "title": "3. Kaj je vaš najpomembnejši cilj med aktivnostjo?",
+        "subtitle": "Priporočilo bomo prilagodili vašemu telesnemu cilju",
+        "options": {
+          "quick-energy": "Takojšen naval hitre energije ⚡",
+          "hydration": "Hidracija in ravnovesje elektrolitov 💧",
+          "cramps": "Preprečevanje mišičnih krčev 🛡️",
+          "all-around": "Celovita energija in hidracija 🔥"
+        }
+      },
+      "flavour": {
+        "title": "4. Kateri je vaš najljubši sadni okus?",
+        "subtitle": "Vsi naši okusi so 100% naravni z liofiliziranim sadjem in medom",
+        "options": {
+          "orange": "Sočna pomaranča 🍊",
+          "lemon": "Osvežujoča limona 🍋",
+          "raspberry": "Gozdna malina 🍓",
+          "any": "Obožujem vse naravne okuse medu 🍯"
+        }
+      },
+      "frequency": {
+        "title": "5. Kako pogosto trenirate tedensko?",
+        "subtitle": "Pogostost aktivnosti pomaga določiti zaloge",
+        "options": {
+          "casual": "1-2-krat tedensko",
+          "regular": "3-4-krat tedensko",
+          "pro": "5-krat ali več tedensko / Profesionalno"
+        }
+      }
+    }
+  }
+}

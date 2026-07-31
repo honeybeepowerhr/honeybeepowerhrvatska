@@ -1,0 +1,348 @@
+{
+  "nav": {
+    "products": "Produkte",
+    "whereToBuy": "Wo kaufen",
+    "athletes": "Sportler",
+    "guides": "Ratgeber",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "b2b": "Für Partner"
+  },
+  "header": {
+    "freeShipping": "Kostenloser Versand ab {amount} €",
+    "search": "Suchen",
+    "cart": "Warenkorb",
+    "cartItems": "{count} Artikel"
+  },
+  "search": {
+    "ariaLabel": "Webshop-Suche",
+    "placeholder": "Produkte, Ratgeber oder Seiten suchen...",
+    "closeLabel": "Suche schließen",
+    "hint": "Geben Sie einen Suchbegriff ein (z. B. \"Gel\", \"Isotonisch\", \"Marathon\")",
+    "noResults": "Keine Ergebnisse für \"{query}\"",
+    "product": "Produkt",
+    "guide": "Ratgeber",
+    "page": "Seite"
+  },
+  "shopMode": {
+    "wholesaleTab": "Großhandel (Großmenge)",
+    "retailTab": "Einzelhandel (Kleinbestellungen)",
+    "wholesaleBadge": "Großhandels-Webshop — Großmengenkauf",
+    "retailBadge": "Kleinbestellungen (10 € Verpackungs- & Versandzuschlag)",
+    "minOrderNotice": "Mindestbestellmenge: {min} Stk.",
+    "retailSurchargeNotice": "Für Kleinbestellungen wird an der Kasse ein fester Verpackungs- und Versandzuschlag von 10,00 € erhoben.",
+    "packagingSurcharge": "Verpackungs- und Versandzuschlag",
+    "subtotal": "Zwischensumme Artikel",
+    "moqWarning": "Mindestmenge für den Großhandel beträgt {min} Stück.",
+    "switchToRetail": "Wechseln Sie zu Kleinbestellungen, wenn Sie weniger als {min} Stück bestellen möchten.",
+    "switchToWholesale": "Kaufen Sie in großen Mengen? Wechseln Sie zum Großhandel für Mindestbestellmengen."
+  },
+  "hero": {
+    "heading": "Kraft aus der Natur. Leistung ohne Kompromisse.",
+    "subtitle": "Innovative natürliche Energiegels und isotonische Getränke. Ohne künstliche Süßstoffe, ohne Sucralose — reiner Honig, gefriergetrocknete Früchte und natürliche Elektrolyte.",
+    "ctaPrimary": "Produktangebot durchstöbern",
+    "ctaSecondary": "Finde dein Produkt in 5 Fragen",
+    "trustNoSucralose": "Ohne Sucralose & Zusatzstoffe",
+    "trustFruit": "Gefriergetrocknete Früchte",
+    "trustHoney": "100% Natürlicher Honig",
+    "badgeHoney": "100% HONIG",
+    "athleteRating": "Athleten-Bewertung",
+    "reviewsCount": "Über 1.500+ Bewertungen"
+  },
+  "whyHbp": {
+    "badge": "Warum Honey Bee Power wählen?",
+    "title": "100% Reine Zutaten aus einheimischen Imkereien",
+    "subtitle": "Dein Körper verdient echte Nährstoffe, keine synthetischen Laborzucker und künstlichen Aromen.",
+    "reason1Title": "Heimischer Blütenhonig",
+    "reason1Desc": "Perfektes natürliches Verhältnis von Glukose und Fruktose für sofortige und anhaltende Energie ohne Blutzuckerabsturz.",
+    "reason2Title": "Echte gefriergetrocknete Früchte",
+    "reason2Desc": "Gefriergetrocknet zur Erhaltung aller natürlichen Vitamine, Mineralien und frischen Geschmacks ohne künstliche Aromen.",
+    "reason3Title": "Magenschonend",
+    "reason3Desc": "Ohne Sucralose und aggressive Konservierungsstoffe formuliert. Verursacht keine Übelkeit oder Magenkrämpfe im Wettkampf.",
+    "reason4Title": "Natürliche Elektrolyte",
+    "reason4Desc": "Angereichert mit reinem Meersalz und natürlichem Natrium für maximale Hydratation und Krampfvorbeugung."
+  },
+  "productOffer": {
+    "badge": "Unser Produktangebot",
+    "title": "Offizielle Honey Bee Power Produkte",
+    "subtitle": "100% natürliche Energiebrennstoffe auf Basis von Honig, gefriergetrockneten Früchten und natürlichen Elektrolyten.",
+    "viewAll": "Alle Produkte anzeigen",
+    "gelBadge": "Energiegel",
+    "isoBadge": "Isotonisches Getränk",
+    "addToCart": "In den Warenkorb"
+  },
+  "activities": {
+    "badge": "Honey Bee Power in Aktion",
+    "title": "Events & Feldaktivitäten"
+  },
+  "socialProof": {
+    "partnersBadge": "Verlässlicher Partner führender Sportvereine und Rennen",
+    "badge": "Athleten-Erfahrungen",
+    "title": "Was sagen diejenigen, die mit uns gewinnen?",
+    "followInstagram": "Folge uns auf Instagram @planet__bio"
+  },
+  "b2bBlock": {
+    "badge": "Für Geschäfte, Fitnessstudios & Vereine",
+    "title": "Möchten Sie offizieller Partner oder Händler werden?",
+    "subtitle": "Wir bieten attraktive Großhandelskonditionen, schnelle Lieferung und Marketingunterstützung für Fitnessstudios, Fachgeschäfte und Sportvereine.",
+    "cta": "Großhandelspreisliste anfordern"
+  },
+  "trust": {
+    "natural": "100% natürlich",
+    "noSucralose": "Ohne Sucralose",
+    "delivery": "Lieferung 1–2 Tage",
+    "croatianBrand": "Kroatische Marke"
+  },
+  "product": {
+    "addToCart": "In den Warenkorb",
+    "viewProduct": "Ansehen",
+    "from": "ab",
+    "inStock": "Auf Lager",
+    "outOfStock": "Nicht verfügbar",
+    "reviews": "Bewertungen"
+  },
+  "cart": {
+    "title": "Ihr Warenkorb",
+    "itemsCount": "{count} Artikel",
+    "itemCountOne": "1 Artikel",
+    "empty": "Ihr Warenkorb ist leer",
+    "emptySub": "Fügen Sie natürliche Gels oder isotonische Getränke für maximale Energie hinzu.",
+    "viewProducts": "Produkte ansehen",
+    "freeShippingReached": "🎉 Sie haben kostenlosen Versand erhalten!",
+    "freeShippingProgress": "Noch {amount} bis zum kostenlosen Versand",
+    "total": "Gesamtsumme:",
+    "checkoutBtn": "Anfrage senden",
+    "noImage": "Kein Bild",
+    "perPiece": "€ / Stk",
+    "remove": "Entfernen"
+  },
+  "checkout": {
+    "title": "Anfrage senden",
+    "subtitle": "Füllen Sie Ihre Lieferdaten aus — wir kontaktieren Sie mit einem Angebot, Preis und Zahlungsbedingungen.",
+    "summaryTitle": "Anfrageübersicht",
+    "subtotal": "Unverbindlicher Zwischensumme",
+    "disclaimer": "Der Preis dient nur zur Information. Das finale Angebot und die Versandkosten werden persönlich vereinbart.",
+    "replyNotice": "Wir antworten in der Regel innerhalb von 24 Std.",
+    "noObligation": "Keine Zahlungsverpflichtung bis zur Bestätigung des Angebots",
+    "personalData": "Persönliche Daten",
+    "fullName": "Vor- und Nachname",
+    "email": "E-Mail",
+    "phone": "Telefon (optional)",
+    "shippingAddress": "Lieferadresse",
+    "address": "Straße und Hausnummer",
+    "city": "Stadt",
+    "postalCode": "Postleitzahl",
+    "country": "Land",
+    "notesTitle": "Anmerkung zur Anfrage",
+    "notesLabel": "Besondere Anmerkungen (optional)",
+    "infoBanner": "Dies ist keine Zahlung. Nach Absenden der Anfrage senden wir Ihnen ein persönliches Angebot.",
+    "submitBtn": "Anfrage senden",
+    "submittingBtn": "Anfrage wird gesendet…",
+    "successTitle": "Anfrage eingegangen!",
+    "successMessage": "Wir werden uns in Kürze unter {email} mit einem Angebot bei Ihnen melden.",
+    "termsAccept": "Mit dem Absenden stimmen Sie unseren Nutzungsbedingungen und Datenschutzbestimmungen zu."
+  },
+  "footer": {
+    "products": "Produkte",
+    "info": "Informationen",
+    "company": "Unternehmen",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten",
+    "aboutText": "Natürliche Sportnahrung auf Honigbasis mit funktionellen Zutaten.",
+    "energyGels": "Energiegels",
+    "isotonicDrinks": "Isotonische Getränke",
+    "whereToBuy": "Wo kaufen",
+    "faq": "FAQ",
+    "shippingPayment": "Lieferung & Zahlung",
+    "returns": "Rückgaberecht",
+    "privacy": "Datenschutz-Bestimmungen",
+    "terms": "Nutzungsbedingungen",
+    "impressum": "Impressum",
+    "copyright": "© 2026 Honey Bee Power"
+  },
+  "newsletter": {
+    "title": "Unseren Newsletter abonnieren",
+    "subtitle": "Abonnieren Sie unseren Newsletter und erfahren Sie als Erste von exklusiven Angeboten, neuen Sorten und Vorbereitungstipps.",
+    "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "submit": "Abonnieren",
+    "success": "Vielen Dank für Ihre Anmeldung!",
+    "successDetail": "Sie haben sich erfolgreich für unseren Newsletter angemeldet ({email}).",
+    "privacy": "Wir respektieren Ihre Privatsphäre. Sie können sich jederzeit abmelden."
+  },
+  "comparison": {
+    "heading": "Vergleich mit industriellen Gels",
+    "colFeature": "Eigenschaft",
+    "colHbp": "Honey Bee Power",
+    "colGeneric": "Generische Gels",
+    "row1Feature": "Kohlenhydratbasis",
+    "row1Hbp": "100% Natürlicher Blütenhonig",
+    "row1Generic": "Synthetisches Maltodextrin & Glukose",
+    "row2Feature": "Süßungsmittel",
+    "row2Hbp": "Ohne Zuckerzusatz & Sucralose",
+    "row2Generic": "Sucralose & künstliche Stoffe",
+    "row3Feature": "Aroma & Geschmack",
+    "row3Hbp": "Echte gefriergetrocknete Früchte",
+    "row3Generic": "Künstliche Aromen & Farbstoffe",
+    "row4Feature": "Verträglichkeit",
+    "row4Hbp": "Äußerst magenschonend",
+    "row4Generic": "Häufige Verdauungsbeschwerden",
+    "row5Feature": "Glykämischer Index",
+    "row5Hbp": "Stetige & ausgewogene Energie",
+    "row5Generic": "Schneller Anstieg & rapider Abfall",
+    "row6Feature": "Antioxidantien & Enzyme",
+    "row6Hbp": "Reich an natürlichen Honigenzymen",
+    "row6Generic": "Keine wertvollen Nährstoffe"
+  },
+  "b2b": {},
+  "b2bPage": {
+    "badge": "B2B-Partnerprogramm",
+    "title": "Werden Sie Honey Bee Power Händler oder Partner",
+    "subtitle": "Bieten Sie Ihren Kunden, Sportlern und Vereinsmitgliedern 100% natürliche Sporternährung auf Honigbasis an. Wir bieten attraktive Großhandelskonditionen und schnelle Lieferung.",
+    "benefit1Title": "Attraktive Großhandelsmargen",
+    "benefit1Desc": "Spezielle Mengenrabatte für Geschäfte, Apotheken, Fitnessstudios und Sportvereine.",
+    "benefit2Title": "Schnelle Logistik & Lieferung",
+    "benefit2Desc": "Versand aus unserem Lager in Našice innerhalb von 24–48 Stunden für Kroatien und die Region.",
+    "benefit3Title": "Marketingunterstützung & POS",
+    "benefit3Desc": "Kostenlose Werbematerialien, Verkaufsständer und Proben für Verkostungen.",
+    "formTitle": "Antrag auf B2B-Zusammenarbeit",
+    "companyLabel": "Firmen- oder Gewerbename *",
+    "contactLabel": "Name der Kontaktperson *",
+    "emailLabel": "E-Mail-Adresse *",
+    "phoneLabel": "Telefonnummer *",
+    "typeLabel": "Art der Zusammenarbeit *",
+    "typeRetail": "Geschäft / Einzelhandel",
+    "typeDistributor": "Nationaler Händler",
+    "typeClub": "Sportverein / Verband",
+    "typeGym": "Fitnessstudio / Center",
+    "typeOther": "Sonstiges",
+    "messageLabel": "Nachricht und Details zur Anfrage *",
+    "submitBtn": "B2B-Anfrage senden",
+    "successTitle": "Vielen Dank für Ihr Interesse!",
+    "successDesc": "Ihre B2B-Anfrage wurde erfolgreich empfangen. Unser Verkaufsteam wird Sie innerhalb von 24 Werktagen kontaktieren."
+  },
+  "whereToBuyPage": {
+    "badge": "Verkaufsstellen",
+    "title": "Wo kann man Honey Bee Power kaufen?",
+    "subtitle": "Finden Sie autorisierte Geschäfte, Apotheken und spezialisierte Fitnesscenter in Ihrer Nähe.",
+    "listTitle": "Liste der Verkaufsstellen",
+    "shop": "Geschäft",
+    "pharmacy": "Apotheke",
+    "online": "Online",
+    "mapTitle": "Standortkarte",
+    "mapSelectNotice": "Wählen Sie eine Verkaufsstelle aus der Liste für Details",
+    "b2bNotice": "* Um Partner zu werden oder Ihr Geschäft zu listen, kontaktieren Sie uns unter info@planetbio.hr"
+  },
+  "athletesPage": {
+    "badge": "Teamstärke",
+    "title": "Honey Bee Power Botschafter",
+    "subtitle": "Wir stellen Champions vor, die mit 100% natürlicher Honigenergie ihre Grenzen verschieben.",
+    "achievementsTitle": "Ergebnisse & Erfolge"
+  },
+  "guidesPage": {
+    "badge": "Bildung & Tipps",
+    "title": "Ratgeber für Ernährung und Sportleistung",
+    "subtitle": "Lernen Sie, wie Sie die Energiezufuhr richtig timen, den Magen schonen und persönliche Rekorde aufstellen.",
+    "readMore": "Weiterlesen →"
+  },
+  "filters": {
+    "title": "Filter",
+    "clear": "Filter zurücksetzen",
+    "category": "Kategorie",
+    "all": "Alle",
+    "energyGels": "Energiegels",
+    "isotonicDrinks": "Isotonische Getränke",
+    "wheyProteins": "Whey Proteine",
+    "flavour": "Geschmack",
+    "activity": "Zielaktivität",
+    "running": "Laufen",
+    "cycling": "Radsport",
+    "fitness": "Fitnessstudio",
+    "noResults": "Keine Ergebnisse",
+    "noResultsHeading": "Keine Ergebnisse für ausgewählte Filter",
+    "noResultsSub": "Versuchen Sie, einige Filter zu entfernen, um mehr Produkte zu sehen.",
+    "productsCount": "{count} Produkte"
+  },
+  "legal": {
+    "impressumTitle": "Impressum",
+    "companyName": "Firmenname:",
+    "companyNameVal": "Planet Bio d.o.o. für Handel und Dienstleistungen",
+    "address": "Sitz und Adresse:",
+    "addressVal": "Krndijska ulica 4, 31500 Našice, Kroatien",
+    "contactDetails": "Kontaktdaten:",
+    "idData": "Identifikationsdaten:",
+    "disclaimerNotice": "Hinweis: Nahrungsergänzungsmittel und Sportnahrung sind kein Ersatz für eine ausgewogene Ernährung und gesunde Lebensweise. Außerhalb der Reichweite von kleinen Kindern aufbewahren.",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "faqBadge": "Hilfe & Support",
+    "shippingTitle": "Lieferung & Zahlung",
+    "shippingNotice": "🚚 Kostenloser Versand: Für alle Bestellungen über 50,00 € ist die Lieferung innerhalb Kroatiens völlig kostenlos!",
+    "paymentMethodsTitle": "Zahlungsarten",
+    "deliveryTermsTitle": "Lieferzeiten"
+  },
+  "quiz": {
+    "badge": "Interaktives Produkt-Quiz",
+    "heading": "Finden Sie Ihr ideales Produkt in 5 Fragen",
+    "subheading": "Eine schnelle Analyse Ihres Trainings und Hauptziels für 100% natürliche Energie ohne Einbrüche.",
+    "questionOf": "Frage {step} von {total}",
+    "percentDone": "{percent}% abgeschlossen",
+    "prevQuestion": "Vorherige Frage",
+    "close": "Schließen",
+    "resultsReady": "Ihre persönliche Empfehlung wurde berechnet!",
+    "categoryEnergyGel": "Energie-Gel",
+    "categoryIsotonic": "Isotonisches Getränk",
+    "addToCart": "In den Warenkorb",
+    "resetQuiz": "Quiz erneut starten",
+    "matchReasonEnergyGel": "Heimischer Blütenhonig mit gefriergetrockneten Früchten liefert eine sofortige, lang anhaltende Energiequelle ohne Einbrüche.",
+    "matchReasonIsotonic": "Ein natürliches isotonisches Getränk mit Honig und Meersalz, ideal zur Hydration und zur Vorbeugung von Krämpfen.",
+    "questions": {
+      "activity": {
+        "title": "1. Welcher sportlichen Hauptaktivität gehen Sie nach?",
+        "subtitle": "Wählen Sie die Aktivität, für die Sie Energie benötigen",
+        "options": {
+          "running": "Laufen / Marathon 🏃‍♂️",
+          "cycling": "Radfahren / Straße & MTB 🚴‍♂️",
+          "hiking": "Wandern / Outdoor ⛰️",
+          "fitness": "Fitnessstudio / Crossfit 🏋️‍♂️"
+        }
+      },
+      "duration": {
+        "title": "2. Wie lange dauert Ihr Training oder Rennen normalerweise?",
+        "subtitle": "Die Dauer der Aktivität bestimmt die optimale Kohlenhydrat- und Elektrolytzufuhr",
+        "options": {
+          "short": "Bis zu 45 Minuten",
+          "medium": "45 Min. – 90 Minuten",
+          "long": "1,5 – 3 Stunden",
+          "ultra": "Mehr als 3 Stunden / Ultramarathon"
+        }
+      },
+      "goal": {
+        "title": "3. Was ist Ihr wichtigstes Ziel während der Aktivität?",
+        "subtitle": "Wir passen die Empfehlung an Ihr körperliches Ziel an",
+        "options": {
+          "quick-energy": "Sofortiger Schub schneller Energie ⚡",
+          "hydration": "Hydration und Elektrolythaushalt 💧",
+          "cramps": "Vorbeugung von Muskelkrämpfen 🛡️",
+          "all-around": "Umfassende Energie und Hydration 🔥"
+        }
+      },
+      "flavour": {
+        "title": "4. Was ist Ihr liebster Fruchtgeschmack?",
+        "subtitle": "Alle unsere Geschmacksrichtungen sind 100% natürlich mit gefriergetrockneten Früchten und Honig",
+        "options": {
+          "orange": "Saftige Orange 🍊",
+          "lemon": "Erfrischende Zitrone 🍋",
+          "raspberry": "Waldhimbeere 🍓",
+          "any": "Ich liebe alle natürlichen Honiggeschmäcker 🍯"
+        }
+      },
+      "frequency": {
+        "title": "5. Wie oft trainieren Sie pro Woche?",
+        "subtitle": "Die Trainingshäufigkeit hilft bei der Bestimmung Ihres Bedarfs",
+        "options": {
+          "casual": "1-2 Mal pro Woche",
+          "regular": "3-4 Mal pro Woche",
+          "pro": "5+ Mal pro Woche / Profi"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "nav": {
+    "products": "Products",
+    "whereToBuy": "Where to Buy",
+    "athletes": "Athletes",
+    "guides": "Guides",
+    "about": "About",
+    "contact": "Contact",
+    "b2b": "For Partners"
+  },
+  "header": {
+    "freeShipping": "Free shipping over {amount} €",
+    "search": "Search",
+    "cart": "Cart",
+    "cartItems": "{count} items"
+  },
+  "search": {
+    "ariaLabel": "Webshop search",
+    "placeholder": "Search products, guides or pages...",
+    "closeLabel": "Close search",
+    "hint": "Type a search term (e.g. \"gel\", \"isotonic\", \"marathon\")",
+    "noResults": "No results for \"{query}\"",
+    "product": "Product",
+    "guide": "Guide",
+    "page": "Page"
+  },
+  "shopMode": {
+    "wholesaleTab": "Wholesale (Bulk)",
+    "retailTab": "Retail (Small orders)",
+    "wholesaleBadge": "Wholesale Webshop — Bulk purchasing",
+    "retailBadge": "Small orders (€10 packaging & shipping surcharge)",
+    "minOrderNotice": "Minimum order: {min} pcs",
+    "retailSurchargeNotice": "Small retail orders incur a flat €10.00 packaging and shipping surcharge at checkout.",
+    "packagingSurcharge": "Packaging and shipping surcharge",
+    "subtotal": "Items subtotal",
+    "moqWarning": "Minimum wholesale quantity is {min} pcs.",
+    "switchToRetail": "Switch to small orders if you wish to order fewer than {min} pcs.",
+    "switchToWholesale": "Buying in bulk? Switch to wholesale for bulk order minimums."
+  },
+  "hero": {
+    "heading": "Power from Nature. Performance Without Compromise.",
+    "subtitle": "Innovative natural energy gels and isotonic drinks. No artificial sweeteners, no sucralose — pure honey, freeze-dried fruit, and natural electrolytes.",
+    "ctaPrimary": "Browse Product Offer",
+    "ctaSecondary": "Find your product in 5 questions",
+    "trustNoSucralose": "No sucralose & additives",
+    "trustFruit": "Freeze-dried fruit",
+    "trustHoney": "100% Natural honey",
+    "badgeHoney": "100% HONEY",
+    "athleteRating": "Athlete rating",
+    "reviewsCount": "Over 1,500+ reviews"
+  },
+  "whyHbp": {
+    "badge": "Why Choose Honey Bee Power?",
+    "title": "100% Pure Ingredients from Local Apiaries",
+    "subtitle": "Your body deserves real nutrients, not lab-made synthetic sugars and artificial flavours.",
+    "reason1Title": "Local wildflower honey",
+    "reason1Desc": "Perfect natural glucose to fructose ratio for instant and sustained energy without sugar crashes.",
+    "reason2Title": "Real freeze-dried fruit",
+    "reason2Desc": "Freeze-dried to preserve all natural vitamins, minerals, and fresh taste without artificial flavorings.",
+    "reason3Title": "Gentle on stomach",
+    "reason3Desc": "Formulated without sucralose or harsh preservatives. Causes no nausea or stomach cramps during races.",
+    "reason4Title": "Natural electrolytes",
+    "reason4Desc": "Enriched with pure sea salt and natural sodium for maximum hydration and cramp prevention."
+  },
+  "productOffer": {
+    "badge": "Our Product Range",
+    "title": "Official Honey Bee Power Products",
+    "subtitle": "100% natural energy fuels based on honey, freeze-dried fruit, and natural electrolytes.",
+    "viewAll": "View all products",
+    "gelBadge": "Energy Gel",
+    "isoBadge": "Isotonic Drink",
+    "addToCart": "Add to Cart"
+  },
+  "activities": {
+    "badge": "Honey Bee Power in Action",
+    "title": "Events & Field Activities"
+  },
+  "socialProof": {
+    "partnersBadge": "Trusted partner of leading sports clubs and races",
+    "badge": "Athlete Testimonials",
+    "title": "What do those who win with us say?",
+    "followInstagram": "Follow us on Instagram @planet__bio"
+  },
+  "b2bBlock": {
+    "badge": "For Shops, Gyms & Clubs",
+    "title": "Want to Become an Official Partner or Distributor?",
+    "subtitle": "We offer attractive wholesale terms, fast delivery, and marketing support for gyms, specialized shops, and sports clubs.",
+    "cta": "Request Wholesale Price List"
+  },
+  "trust": {
+    "natural": "100% Natural",
+    "noSucralose": "No Sucralose",
+    "delivery": "Delivery 1–2 days",
+    "croatianBrand": "Croatian Brand"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "viewProduct": "View",
+    "from": "from",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "reviews": "reviews"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "itemsCount": "{count} items",
+    "itemCountOne": "1 item",
+    "empty": "Your cart is empty",
+    "emptySub": "Add natural gels or isotonic drinks for maximum energy.",
+    "viewProducts": "View products",
+    "freeShippingReached": "🎉 You earned free shipping!",
+    "freeShippingProgress": "{amount} more for free shipping",
+    "total": "Total:",
+    "checkoutBtn": "Send inquiry",
+    "noImage": "No image",
+    "perPiece": "€ / pc",
+    "remove": "Remove"
+  },
+  "checkout": {
+    "title": "Send inquiry",
+    "subtitle": "Fill in your delivery details — we will contact you with an offer, price, and payment terms.",
+    "summaryTitle": "Inquiry summary",
+    "subtotal": "Estimated subtotal",
+    "disclaimer": "Price is for information only. Final offer, shipping cost, and payment method will be agreed after receiving inquiry.",
+    "replyNotice": "We usually reply within 24h",
+    "noObligation": "No payment obligation until you confirm the quote",
+    "personalData": "Personal information",
+    "fullName": "Full name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "shippingAddress": "Shipping address",
+    "address": "Street & house number",
+    "city": "City",
+    "postalCode": "Postal code",
+    "country": "Country",
+    "notesTitle": "Inquiry notes",
+    "notesLabel": "Special notes (optional)",
+    "infoBanner": "This is not a payment. After submitting an inquiry, we will personally contact you with a final offer.",
+    "submitBtn": "Send inquiry",
+    "submittingBtn": "Sending inquiry…",
+    "successTitle": "Inquiry received!",
+    "successMessage": "We will contact you shortly at {email} with your quote.",
+    "termsAccept": "By submitting an inquiry you accept our Terms of Use and Privacy Policy."
+  },
+  "footer": {
+    "products": "Products",
+    "info": "Information",
+    "company": "Company",
+    "contact": "Contact",
+    "rights": "All rights reserved",
+    "aboutText": "Natural honey-based sports nutrition with functional ingredients.",
+    "energyGels": "Energy Gels",
+    "isotonicDrinks": "Isotonic Drinks",
+    "whereToBuy": "Where to Buy",
+    "faq": "FAQ",
+    "shippingPayment": "Shipping & Payment",
+    "returns": "Return Policy",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "impressum": "Impressum",
+    "copyright": "© 2026 Honey Bee Power"
+  },
+  "newsletter": {
+    "title": "Subscribe to Our Newsletter",
+    "subtitle": "Subscribe to our newsletter and be the first to know about exclusive offers, new flavours, and race prep tips.",
+    "placeholder": "Enter your email address",
+    "submit": "Subscribe",
+    "success": "Thank you for subscribing!",
+    "successDetail": "You have successfully subscribed to our newsletter ({email}).",
+    "privacy": "We respect your privacy. You can unsubscribe at any time."
+  },
+  "comparison": {
+    "heading": "Comparison with industrial gels",
+    "colFeature": "Feature",
+    "colHbp": "Honey Bee Power",
+    "colGeneric": "Generic Gels",
+    "row1Feature": "Carb Source",
+    "row1Hbp": "100% Natural Wildflower Honey",
+    "row1Generic": "Synthetic Maltodextrin & Glucose",
+    "row2Feature": "Sweeteners",
+    "row2Hbp": "No added sugar or sucralose",
+    "row2Generic": "Sucralose & artificial agents",
+    "row3Feature": "Flavor & Aroma",
+    "row3Hbp": "Real Freeze-Dried Fruit",
+    "row3Generic": "Artificial flavors & colorings",
+    "row4Feature": "Digestibility",
+    "row4Hbp": "Extremely gentle on stomach",
+    "row4Generic": "Frequent digestive distress",
+    "row5Feature": "Glycemic Index",
+    "row5Hbp": "Steady & balanced energy surge",
+    "row5Generic": "Spike & crash energy curve",
+    "row6Feature": "Antioxidants & Enzymes",
+    "row6Hbp": "Rich in natural honey enzymes",
+    "row6Generic": "No beneficial nutrients"
+  },
+  "b2b": {},
+  "b2bPage": {
+    "badge": "B2B Partner Program",
+    "title": "Become a Honey Bee Power Distributor or Partner",
+    "subtitle": "Offer your customers, competitors, and club members 100% natural honey-based sports nutrition. We offer attractive wholesale conditions and fast delivery.",
+    "benefit1Title": "Attractive Wholesale Margins",
+    "benefit1Desc": "Special bulk discounts for shops, pharmacies, gyms, and sports clubs.",
+    "benefit2Title": "Fast Logistics & Delivery",
+    "benefit2Desc": "Dispatch from our warehouse in Našice within 24-48h for Croatia and the region.",
+    "benefit3Title": "Marketing Support & POS",
+    "benefit3Desc": "Free promotional materials, store displays, and tasting samples.",
+    "formTitle": "B2B Partnership Application",
+    "companyLabel": "Company or Business Name *",
+    "contactLabel": "Contact Person Full Name *",
+    "emailLabel": "Email Address *",
+    "phoneLabel": "Phone Number *",
+    "typeLabel": "Cooperation Type *",
+    "typeRetail": "Retail Store",
+    "typeDistributor": "National Distributor",
+    "typeClub": "Sports Club / Federation",
+    "typeGym": "Gym / Fitness Center",
+    "typeOther": "Other",
+    "messageLabel": "Message and Inquiry Details *",
+    "submitBtn": "Submit B2B Request",
+    "successTitle": "Thank you for your interest!",
+    "successDesc": "Your B2B inquiry has been successfully received. Our sales team will contact you within 24 business hours."
+  },
+  "whereToBuyPage": {
+    "badge": "Retail Locations",
+    "title": "Where to Buy Honey Bee Power?",
+    "subtitle": "Find authorized shops, pharmacies, and specialized fitness centers near you.",
+    "listTitle": "Store Locator",
+    "shop": "Store",
+    "pharmacy": "Pharmacy",
+    "online": "Online",
+    "mapTitle": "Location Map",
+    "mapSelectNotice": "Select a store location from the list for details",
+    "b2bNotice": "* To become a partner or list your store, contact us at info@planetbio.hr"
+  },
+  "athletesPage": {
+    "badge": "Team Strength",
+    "title": "Honey Bee Power Ambassadors",
+    "subtitle": "Introducing champions who push their limits with 100% natural honey energy.",
+    "achievementsTitle": "Results & Achievements"
+  },
+  "guidesPage": {
+    "badge": "Education & Tips",
+    "title": "Nutrition & Sports Performance Guides",
+    "subtitle": "Learn how to correctly time your energy intake, protect your stomach, and set personal records.",
+    "readMore": "Read more →"
+  },
+  "filters": {
+    "title": "Filters",
+    "clear": "Clear filters",
+    "category": "Category",
+    "all": "All",
+    "energyGels": "Energy Gels",
+    "isotonicDrinks": "Isotonic Drinks",
+    "wheyProteins": "Whey Proteins",
+    "flavour": "Flavor",
+    "activity": "Target Activity",
+    "running": "Running",
+    "cycling": "Cycling",
+    "fitness": "Gym / Fitness",
+    "noResults": "No results",
+    "noResultsHeading": "No results for selected filters",
+    "noResultsSub": "Try removing some filters to see more products.",
+    "productsCount": "{count} products"
+  },
+  "legal": {
+    "impressumTitle": "Impressum",
+    "companyName": "Company Name:",
+    "companyNameVal": "Planet Bio d.o.o. for Trade and Services",
+    "address": "Headquarters Address:",
+    "addressVal": "Krndijska ulica 4, 31500 Našice, Croatia",
+    "contactDetails": "Contact Details:",
+    "idData": "Identification Data:",
+    "disclaimerNotice": "Disclaimer: Food supplements and sports nutrition are not a substitute for a balanced and varied diet and a healthy lifestyle. Keep out of reach of young children.",
+    "faqTitle": "Frequently Asked Questions (FAQ)",
+    "faqBadge": "Help & Support",
+    "shippingTitle": "Shipping & Payment",
+    "shippingNotice": "🚚 Free shipping: For all orders over €50.00, delivery within Croatia is completely free!",
+    "paymentMethodsTitle": "Payment Methods",
+    "deliveryTermsTitle": "Delivery Times"
+  },
+  "quiz": {
+    "badge": "Interactive Product Quiz",
+    "heading": "Find Your Ideal Product in 5 Questions",
+    "subheading": "A quick analysis of your training and primary goal for 100% natural energy without crashes.",
+    "questionOf": "Question {step} of {total}",
+    "percentDone": "{percent}% complete",
+    "prevQuestion": "Previous question",
+    "close": "Close",
+    "resultsReady": "Your personalized recommendation is ready!",
+    "categoryEnergyGel": "Energy Gel",
+    "categoryIsotonic": "Isotonic Drink",
+    "addToCart": "Add to cart",
+    "resetQuiz": "Retake the quiz",
+    "matchReasonEnergyGel": "Homemade flower honey with freeze-dried fruit provides an instant, long-lasting energy source without crashes.",
+    "matchReasonIsotonic": "A natural isotonic drink with honey and sea salt, ideal for hydration and preventing cramps.",
+    "questions": {
+      "activity": {
+        "title": "1. What is your primary sport activity?",
+        "subtitle": "Choose the activity you need energy for",
+        "options": {
+          "running": "Running / Marathon 🏃‍♂️",
+          "cycling": "Cycling / Road & MTB 🚴‍♂️",
+          "hiking": "Hiking / Outdoor ⛰️",
+          "fitness": "Gym / Fitness / Crossfit 🏋️‍♂️"
+        }
+      },
+      "duration": {
+        "title": "2. How long does your training or race usually last?",
+        "subtitle": "Activity duration determines the optimal carbohydrate and electrolyte intake",
+        "options": {
+          "short": "Up to 45 minutes",
+          "medium": "45 min – 90 minutes",
+          "long": "1.5 h – 3 hours",
+          "ultra": "More than 3 hours / Ultramarathon"
+        }
+      },
+      "goal": {
+        "title": "3. What is your most important goal during activity?",
+        "subtitle": "We'll tailor the recommendation to your physical goal",
+        "options": {
+          "quick-energy": "Instant burst of fast energy ⚡",
+          "hydration": "Hydration and electrolyte balance 💧",
+          "cramps": "Preventing muscle cramps 🛡️",
+          "all-around": "All-round energy and hydration 🔥"
+        }
+      },
+      "flavour": {
+        "title": "4. What is your favourite fruit flavour?",
+        "subtitle": "All our flavours are 100% natural with freeze-dried fruit and honey",
+        "options": {
+          "orange": "Juicy Orange 🍊",
+          "lemon": "Refreshing Lemon 🍋",
+          "raspberry": "Wild Raspberry 🍓",
+          "any": "I love all natural honey flavours 🍯"
+        }
+      },
+      "frequency": {
+        "title": "5. How often do you train per week?",
+        "subtitle": "Training frequency helps determine your supply needs",
+        "options": {
+          "casual": "1-2 times a week",
+          "regular": "3-4 times a week",
+          "pro": "5+ times a week / Professional"
+        }
+      }
+    }
+  }
+}

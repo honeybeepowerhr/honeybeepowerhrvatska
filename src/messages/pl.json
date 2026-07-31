@@ -1,0 +1,347 @@
+{
+  "nav": {
+    "products": "Produkty",
+    "whereToBuy": "Gdzie kupić",
+    "athletes": "Sportowcy",
+    "guides": "Poradniki",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "b2b": "Dla partnerów"
+  },
+  "header": {
+    "freeShipping": "Darmowa dostawa od {amount} €",
+    "search": "Szukaj",
+    "cart": "Koszyk",
+    "cartItems": "{count} produktów"
+  },
+  "search": {
+    "ariaLabel": "Wyszukiwarka sklepu",
+    "placeholder": "Szukaj produktów, poradników lub stron...",
+    "closeLabel": "Zamknij wyszukiwarkę",
+    "hint": "Wpisz szukaną frazę (np. \"żel\", \"izotonik\", \"maraton\")",
+    "noResults": "Brak wyników dla \"{query}\"",
+    "product": "Produkt",
+    "guide": "Poradnik",
+    "page": "Strona"
+  },
+  "shopMode": {
+    "wholesaleTab": "Hurt (Na duże ilości)",
+    "retailTab": "Detal (Małe zamówienia)",
+    "wholesaleBadge": "Sklep hurtowy — Zakupy hurtowe",
+    "retailBadge": "Małe zamówienia (10 € dopłata za pakowanie/dostawę)",
+    "minOrderNotice": "Minimalne zamówienie: {min} szt.",
+    "retailSurchargeNotice": "Dla małych zamówień detalicznych doliczana jest stała dopłata 10,00 € za pakowanie i dostawę przy kasie.",
+    "packagingSurcharge": "Dopłata za pakowanie i dostawę",
+    "subtotal": "Suma częściowa artykułów",
+    "moqWarning": "Minimalna ilość w hurcie wynosi {min} sztuk.",
+    "switchToRetail": "Przełącz na małe zamówienia, jeśli chcesz zamówić mniej niż {min} sztuk.",
+    "switchToWholesale": "Kupujesz hurtowo? Przełącz się na hurt dla minimalnych ilości zamówienia."
+  },
+  "hero": {
+    "heading": "Moc z Natury. Wydajność Bez Kompromisów.",
+    "subtitle": "Innowacyjne naturalne żele energetyczne i napoje izotoniczne. Bez sztucznych słodzików, bez sukralozy — czysty miód, liofilizowane owoce i naturalne elektrolity.",
+    "ctaPrimary": "Zobacz Ofertę Produktów",
+    "ctaSecondary": "Znajdź swój produkt w 5 pytaniach",
+    "trustNoSucralose": "Bez sukralozy & dodatków",
+    "trustFruit": "Liofilizowane owoce",
+    "trustHoney": "100% Naturalny miód",
+    "badgeHoney": "100% MIÓD",
+    "athleteRating": "Ocena sportowców",
+    "reviewsCount": "Ponad 1500+ recenzji"
+  },
+  "whyHbp": {
+    "badge": "Dlaczego Honey Bee Power?",
+    "title": "100% Czyste Składniki z Lokalnych Pasiek",
+    "subtitle": "Twoje ciało zasługuje na prawdziwe składniki odżywcze, a nie laboratoryjne syntetyczne cukry i sztuczne aromaty.",
+    "reason1Title": "Lokalny miód kwiatowy",
+    "reason1Desc": "Idealna naturalna proporcja glukozy do fruktozy dla natychmiastowej i długotrwałej energii bez nagłych spadków cukru.",
+    "reason2Title": "Prawdziwe liofilizowane owoce",
+    "reason2Desc": "Liofilizowane dla zachowania wszystkich naturalnych witamin, minerałów i świeżego smaku bez sztucznych aromatów.",
+    "reason3Title": "Łagodne dla żołądka",
+    "reason3Desc": "Formuła bez sukralozy i agresywnych konserwantów. Nie powoduje nudności ani skurczów żołądka podczas biegu.",
+    "reason4Title": "Naturalne elektrolity",
+    "reason4Desc": "Wzbogacone czystą solą morską i naturalnym sodem dla maksymalnego nawodnienia i zapobiegania skurczom."
+  },
+  "productOffer": {
+    "badge": "Nasza Oferta Produktów",
+    "title": "Oficjalne Produkty Honey Bee Power",
+    "subtitle": "100% naturalne paliwo energetyczne na bazie miodu, liofilizowanych owoców i naturalnych elektrolitów.",
+    "viewAll": "Zobacz wszystkie produkty",
+    "gelBadge": "Żel Energetyczny",
+    "isoBadge": "Napój Izotoniczny",
+    "addToCart": "Dodaj do koszyka"
+  },
+  "activities": {
+    "badge": "Honey Bee Power w Akcji",
+    "title": "Wydarzenia i Aktywności w Terenie"
+  },
+  "socialProof": {
+    "partnersBadge": "Zaufany partner czołowych klubów sportowych i biegów",
+    "badge": "Opinie Sportowców",
+    "title": "Co mówią ci, którzy wygrywają z nami?",
+    "followInstagram": "Obserwuj nas na Instagramie @planet__bio"
+  },
+  "b2bBlock": {
+    "badge": "Dla Sklepów, Siłowni & Klubów",
+    "title": "Chcesz Zostać Oficjalnym Partnerem lub Dystrybutorem?",
+    "subtitle": "Oferujemy atrakcyjne warunki hurtowe, szybką dostawę i wsparcie marketingowe dla siłowni, sklepów i klubów.",
+    "cta": "Zapytaj o Cennik Hurtowy"
+  },
+  "trust": {
+    "natural": "100% naturalne",
+    "noSucralose": "Bez sukralozy",
+    "delivery": "Dostawa 1–2 dni",
+    "croatianBrand": "Marka premium"
+  },
+  "product": {
+    "addToCart": "Dodaj do koszyka",
+    "viewProduct": "Zobacz",
+    "from": "od",
+    "inStock": "W magazynie",
+    "outOfStock": "Brak w magazynie",
+    "reviews": "recenzji"
+  },
+  "cart": {
+    "title": "Twój Koszyk",
+    "itemsCount": "{count} produktów",
+    "itemCountOne": "1 produkt",
+    "empty": "Twój koszyk jest pusty",
+    "emptySub": "Dodaj naturalne żele lub napoje izotoniczne dla maksymalnej energii.",
+    "viewProducts": "Zobacz produkty",
+    "freeShippingReached": "🎉 Osiągnięto darmową dostawę!",
+    "freeShippingProgress": "Jeszcze {amount} do darmowej dostawy",
+    "total": "Razem:",
+    "checkoutBtn": "Wyślij zapytanie",
+    "noImage": "Brak zdjęcia",
+    "perPiece": "€ / szt.",
+    "remove": "Usuń"
+  },
+  "checkout": {
+    "title": "Wyślij zapytanie",
+    "subtitle": "Wypełnij dane dostawy — skontaktujemy się z Tobą z ofertą, ceną i warunkami płatności.",
+    "summaryTitle": "Podsumowanie zapytania",
+    "subtotal": "Szacunkowa suma częściowa",
+    "disclaimer": "Cena ma charakter informacyjny. Ostateczna oferta i koszty dostawy zostaną uzgodnione po otrzymaniu zapytania.",
+    "replyNotice": "Odpowiadamy zazwyczaj w ciągu 24h",
+    "noObligation": "Brak obowiązku zapłaty do momentu potwierdzenia oferty",
+    "personalData": "Dane osobowe",
+    "fullName": "Imię i nazwisko",
+    "email": "E-mail",
+    "phone": "Telefon (opcjonalnie)",
+    "shippingAddress": "Adres dostawy",
+    "address": "Ulica i numer domu",
+    "city": "Miasto",
+    "postalCode": "Kod pocztowy",
+    "country": "Kraj",
+    "notesTitle": "Uwagi do zapytania",
+    "notesLabel": "Uwagi specjalne (opcjonalnie)",
+    "infoBanner": "To nie jest płatność. Po wysłaniu zapytania skontaktujemy się z Tobą osobiście z ostateczną ofertą.",
+    "submitBtn": "Wyślij zapytanie",
+    "submittingBtn": "Wysyłanie zapytania…",
+    "successTitle": "Zapytanie otrzymane!",
+    "successMessage": "Skontaktujemy się z Tobą wkrótce pod adresem {email} z ofertą.",
+    "termsAccept": "Wysyłajući zapytanie akceptujesz nasz Regulamin i Politykę prywatności."
+  },
+  "footer": {
+    "products": "Produkty",
+    "info": "Informacje",
+    "company": "Firma",
+    "contact": "Kontakt",
+    "rights": "Wszelkie prava zastrzeżone",
+    "aboutText": "Naturalna odżywka dla sportowców na bazie miodu i składników funkcjonalnych.",
+    "energyGels": "Żele energetyczne",
+    "isotonicDrinks": "Napoje izotoniczne",
+    "whereToBuy": "Gdzie kupić",
+    "faq": "FAQ",
+    "shippingPayment": "Dostawa i płatność",
+    "returns": "Zwroty",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "impressum": "Nota prawna",
+    "copyright": "© 2026 Honey Bee Power"
+  },
+  "newsletter": {
+    "title": "Odbierz 10% rabatu na pierwsze zamówienie",
+    "subtitle": "Zapisz się do naszego newslettera i bądź pierwszy, który dowie się o nowych produktach i ofertach specjalnych.",
+    "placeholder": "Wpisz swój e-mail",
+    "submit": "Zapisz się",
+    "success": "Dziękujemy za zapis!",
+    "successDetail": "Pomyślnie zapisano do newslettera ({email}).",
+    "privacy": "Dbamy o Twoją prywatność. Możesz się wypisać w dowolnym momencie."
+  },
+  "comparison": {
+    "heading": "Porównanie z żelami przemysłowymi",
+    "colFeature": "Cecha",
+    "colHbp": "Honey Bee Power",
+    "colGeneric": "Zwykłe żele",
+    "row1Feature": "Baza węglowodanowa",
+    "row1Hbp": "100% Naturalny miód kwiatowy",
+    "row1Generic": "Syntetyczna maltodekstryna & glukoza",
+    "row2Feature": "Substancje słodzące",
+    "row2Hbp": "Bez dodanego cukru i sukralozy",
+    "row2Generic": "Sukraloza & sztuczne dodatki",
+    "row3Feature": "Aromat i smak",
+    "row3Hbp": "Prawdziwe liofilizowane owoce",
+    "row3Generic": "Sztuczne aromaty & barwniki",
+    "row4Feature": "Lekkostrawność",
+    "row4Hbp": "Niezwykle łagodny dla żołądka",
+    "row4Generic": "Częste problemy z żołądkiem",
+    "row5Feature": "Indeks glikemiczny",
+    "row5Hbp": "Stabilny i zrównoważony poziom energii",
+    "row5Generic": "Gwałtowny wzrost i szybki spadek energii",
+    "row6Feature": "Antyoksydanty i enzymy",
+    "row6Hbp": "Bogaty w naturalne enzymy miodowe",
+    "row6Generic": "Brak składników odżywczych"
+  },
+  "whereToBuyPage": {
+    "badge": "Miejsca Sprzedaży",
+    "title": "Gdzie kupić Honey Bee Power?",
+    "subtitle": "Znajdź najbliższy sklep, aptekę lub partnera internetowego w Twojej okolicy.",
+    "listTitle": "Lista Punktów Sprzedaży",
+    "shop": "Sklep",
+    "pharmacy": "Apteka",
+    "online": "Sklep online",
+    "mapTitle": "Mapa Lokalizacji",
+    "mapSelectNotice": "Wybierz punkt sprzedaży z listy, aby zobaczyć szczegóły",
+    "b2bNotice": "* Aby zostać partnerem lub dodać Twój sklep, skontaktuj się z nami pod adresem info@planetbio.hr"
+  },
+  "b2bPage": {
+    "badge": "Partnerstwo B2B",
+    "title": "Zostań Dystrybutorem lub Partnerem Honey Bee Power",
+    "subtitle": "Oferujemy atrakcyjne warunki hurtowe dla sklepów sportowych, siłowni i dystrybutorów.",
+    "benefit1Title": "Wysokie Marže",
+    "benefit1Desc": "Konkurencyjne ceny hurtowe i elastyczne progi ilościowe.",
+    "benefit2Title": "Szybka Dostawa",
+    "benefit2Desc": "Bezpośrednia dostawa z magazynu w ciągu 48-72h.",
+    "benefit3Title": "Wsparcie Marketingowe",
+    "benefit3Desc": "Materiały promocyjne, ekspozytory i próbki produktów dla Twoich klientów.",
+    "formTitle": "Wyślij zapytanie B2B",
+    "companyLabel": "Nazwa firmy / sklepu *",
+    "contactLabel": "Imię i nazwisko osoby kontaktowej *",
+    "emailLabel": "Adres e-mail *",
+    "phoneLabel": "Numer telefonu *",
+    "typeLabel": "Rodzaj działalności *",
+    "typeRetail": "Sklep detaliczny",
+    "typeDistributor": "Dystrybutor / Hurtownia",
+    "typeClub": "Klub sportowy / Związek",
+    "typeGym": "Siłownia / Klub fitness",
+    "typeOther": "Inne",
+    "messageLabel": "Wiadomość i szczegóły zapytania *",
+    "submitBtn": "Wyślij zapytanie B2B",
+    "successTitle": "Dziękujemy za zapytanie!",
+    "successDesc": "Nasz zespół ds. B2B skontaktuje się z Tobą w ciągu 24 godzin."
+  },
+  "athletesPage": {
+    "badge": "Nasi sportowcy",
+    "title": "Zaufali nam profesjonalni sportowcy",
+    "subtitle": "Poznaj ambasadorów, którzy osiągają najwyższe wyniki dzięki naturalnej energii miodu.",
+    "achievementsTitle": "Wyniki & Osiągnięcia"
+  },
+  "guidesPage": {
+    "badge": "Poradniki & Edukacja",
+    "title": "Przewodnik po żywieniu sportowym",
+    "subtitle": "Artykuły i porady eksperckie dotyczące stosowania miodu w sporcie wytrzymałościowym.",
+    "readMore": "Czytaj więcej →"
+  },
+  "filters": {
+    "title": "Filtry",
+    "clear": "Wyczyść filtry",
+    "category": "Kategoria",
+    "all": "Wszystkie",
+    "energyGels": "Żele energetyczne",
+    "isotonicDrinks": "Napoje izotoniczne",
+    "wheyProteins": "Białka serwatkowe",
+    "flavour": "Smak",
+    "activity": "Dyscyplina",
+    "running": "Bieganie",
+    "cycling": "Kolarstwo",
+    "fitness": "Siłownia & Fitness",
+    "noResults": "Brak wyników",
+    "noResultsHeading": "Brak wyników dla wybranych filtrów",
+    "noResultsSub": "Spróbuj usunąć niektóre filtry, aby zobaczyć więcej produktów.",
+    "productsCount": "{count} produktów"
+  },
+  "legal": {
+    "impressumTitle": "Nota prawna (Impressum)",
+    "companyName": "Nazwa firmy:",
+    "companyNameVal": "Planet Bio d.o.o. za trgovinu i usluge",
+    "address": "Siedziba i adres:",
+    "addressVal": "Krndijska ulica 4, 31500 Našice, Chorwacja",
+    "contactDetails": "Dane kontaktowe:",
+    "idData": "Dane identyfikacyjne:",
+    "disclaimerNotice": "Uwaga / Zastrzeżenie: Suplementy diety i odżywki dla sportowców nie zastępujú zrównoważonej diety i zdravogo trybu życia. Przechowywać w miejscu niedostępnym dla dzieci.",
+    "faqTitle": "Najczęściej zadawane pytania (FAQ)",
+    "faqBadge": "Pomoc & Wsparcie",
+    "shippingTitle": "Dostawa i Płatność",
+    "shippingNotice": "🚚 Darmowa dostawa: Dla wszystkich zamówień powyżej 50,00 € dostawa jest całkowicie darmowa!",
+    "paymentMethodsTitle": "Metody Płatności",
+    "deliveryTermsTitle": "Terminy Dostawy"
+  },
+  "quiz": {
+    "badge": "Interaktywny Quiz Rekomendacji",
+    "heading": "Znajdź Swój Idealny Produkt w 5 Pytaniach",
+    "subheading": "Szybka analiza Twojego treningu i głównego celu dla 100% naturalnej energii bez spadków.",
+    "questionOf": "Pytanie {step} z {total}",
+    "percentDone": "{percent}% ukończono",
+    "prevQuestion": "Poprzednie pytanie",
+    "close": "Zamknij",
+    "resultsReady": "Twoja spersonalizowana rekomendacja jest gotowa!",
+    "categoryEnergyGel": "Żel Energetyczny",
+    "categoryIsotonic": "Napój Izotoniczny",
+    "addToCart": "Dodaj do koszyka",
+    "resetQuiz": "Rozwiąż quiz ponownie",
+    "matchReasonEnergyGel": "Lokalny miód kwiatowy z liofilizowanymi owocami zapewnia natychmiastowe i długotrwałe źródło energii bez spadków.",
+    "matchReasonIsotonic": "Naturalny napój izotoniczny z miodem i solą morską idealny do nawadniania i zapobiegania skurczom.",
+    "questions": {
+      "activity": {
+        "title": "1. Jaką aktywność sportową uprawiasz głównie?",
+        "subtitle": "Wybierz aktywność, do której potrzebujesz energii",
+        "options": {
+          "running": "Bieganie / Maraton 🏃‍♂️",
+          "cycling": "Kolarstwo / Szosa & MTB 🚴‍♂️",
+          "hiking": "Trekking / Outdoor ⛰️",
+          "fitness": "Siłownia / Fitness / Crossfit 🏋️‍♂️"
+        }
+      },
+      "duration": {
+        "title": "2. Ile zazwyczaj trwa Twój trening lub bieg?",
+        "subtitle": "Czas trwania aktywności określa optymalne spożycie węglowodanów i elektrolitów",
+        "options": {
+          "short": "Do 45 minut",
+          "medium": "45 min – 90 minut",
+          "long": "1.5 h – 3 godziny",
+          "ultra": "Ponad 3 godziny / Ultramaraton"
+        }
+      },
+      "goal": {
+        "title": "3. Jaki jest Twój najważniejszy cel podczas aktywności?",
+        "subtitle": "Dostosujemy rekomendację do Twojego celu fizycznego",
+        "options": {
+          "quick-energy": "Natychmiastowy zastrzyk szybkiej energii ⚡",
+          "hydration": "Nawodnienie i równowaga elektrolitów 💧",
+          "cramps": "Zapobieganie skurczom mięśni 🛡️",
+          "all-around": "Kompleksowa energia i nawodnienie 🔥"
+        }
+      },
+      "flavour": {
+        "title": "4. Jaki jest Twój ulubiony smak owocowy?",
+        "subtitle": "Wszystkie nasze smaki są w 100% naturalne z liofilizowanymi owocami i miodem",
+        "options": {
+          "orange": "Soczysta Pomarańcza 🍊",
+          "lemon": "Orzeźwiająca Cytryna 🍋",
+          "raspberry": "Malina Leśna 🍓",
+          "any": "Lubię wszystkie naturalne smaki miodu 🍯"
+        }
+      },
+      "frequency": {
+        "title": "5. Jak często trenujesz w tygodniu?",
+        "subtitle": "Częstotliwość aktywności pomaga w określeniu zapasów",
+        "options": {
+          "casual": "1-2 razy w tygodniu",
+          "regular": "3-4 razy w tygodniu",
+          "pro": "5+ razy w tygodniu / Profesjonalnie"
+        }
+      }
+    }
+  }
+}

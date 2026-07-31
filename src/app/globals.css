@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-amber-honey: #f59e0b;
+  --color-amber-honey-dark: #d97706;
+  --color-amber-hover: #e8910a;
+  --color-charcoal: #1a1a1a;
+  --color-charcoal-light: #2d2d2d;
+  --color-white: #ffffff;
+  --color-off-white: #fafaf8;
+  --color-green-nature: #4a7c59;
+  --color-terracotta: #8b4513;
+  --color-terracotta-dark: #6b3410;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #e5e5e5;
+  --color-gray-400: #a3a3a3;
+  --color-gray-600: #525252;
+  --color-gray-800: #262626;
+
+  /* Typography */
+  --font-heading: var(--font-barlow-condensed), "Barlow Condensed", sans-serif;
+  --font-inter: var(--font-inter), "Inter", sans-serif;
+
+  /* Spacing */
+  --radius: 0.5rem;
+}
+
+/* Smooth Scrolling & Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  color: #1a1a1a;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-barlow-condensed), "Barlow Condensed", sans-serif;
+}
+
+/* Focus visible ring */
+:focus-visible {
+  outline: 2px solid #f59e0b;
+  outline-offset: 2px;
+}
+
+/* Skip to content */
+.skip-to-content {
+  position: absolute;
+  top: -999px;
+  left: -999px;
+}
+.skip-to-content:focus {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 9999;
+  background: #f59e0b;
+  color: #1a1a1a;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+/* 3D Hexagon Theme Utilities */
+.clip-hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.text-honey-gradient {
+  background: linear-gradient(135deg, #ef4444 0%, #f97316 45%, #eab308 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-honey-gradient {
+  background: linear-gradient(135deg, #dc2626 0%, #ea580c 50%, #eab308 100%);
+}
+
+.bg-honey-gradient-soft {
+  background: linear-gradient(135deg, #fef2f2 0%, #fff7ed 50%, #fefce8 100%);
+}
+
+/* Smooth 3D Keyframe Animations */
+@keyframes float3D {
+  0%, 100% {
+    transform: translateY(0px) rotateX(10deg) scale(1);
+  }
+  50% {
+    transform: translateY(-12px) rotateX(15deg) scale(1.03);
+  }
+}
+
+@keyframes float3DReverse {
+  0%, 100% {
+    transform: translateY(0px) rotateX(-10deg) scale(1);
+  }
+  50% {
+    transform: translateY(10px) rotateX(-14deg) scale(1.02);
+  }
+}
+
+.animate-float-3d {
+  animation: float3D 6s ease-in-out infinite;
+}
+
+.animate-float-3d-slow {
+  animation: float3D 9s ease-in-out infinite;
+}
+
+.animate-float-3d-reverse {
+  animation: float3DReverse 7.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float-3d,
+  .animate-float-3d-slow,
+  .animate-float-3d-reverse {
+    animation: none;
+  }
+}
