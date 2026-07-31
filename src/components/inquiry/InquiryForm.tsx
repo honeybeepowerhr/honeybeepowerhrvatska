@@ -82,7 +82,6 @@ interface InquiryFormProps {
 export default function InquiryForm({ onSubmit }: InquiryFormProps) {
   const t = useTranslations('checkout')
   const locale = useLocale() as Locale
-  const prefix = locale === 'hr' ? '' : `/${locale}`
 
   const uid = useId()
   const id = (field: string) => `${uid}-${field}`

@@ -630,13 +630,13 @@ export default function CheckoutForm({ onSubmit }: CheckoutFormProps) {
 
       <p className="text-center text-xs text-gray-400">
         Slanjem narudžbe prihvaćate naše{' '}
-        <a href="/uvjeti-koristenja" className="underline hover:text-amber-600">
+        <Link href="/uvjeti-koristenja" className="underline hover:text-amber-600">
           Uvjete korištenja
-        </a>{' '}
+        </Link>{' '}
         i{' '}
-        <a href="/privatnost" className="underline hover:text-amber-600">
+        <Link href="/politika-privatnosti" className="underline hover:text-amber-600">
           Politiku privatnosti
-        </a>
+        </Link>
         .
       </p>
     </form>
