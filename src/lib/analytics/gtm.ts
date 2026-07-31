@@ -4,11 +4,11 @@
 
 declare global {
   interface Window {
-    dataLayer?: any[]
+    dataLayer?: Record<string, unknown>[]
   }
 }
 
-export function pushToDataLayer(event: string, payload: Record<string, any> = {}): void {
+export function pushToDataLayer(event: string, payload: Record<string, unknown> = {}): void {
   if (typeof window === 'undefined') return
   window.dataLayer = window.dataLayer || []
   window.dataLayer.push({

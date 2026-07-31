@@ -8,7 +8,7 @@ import { globalAbandonedCartTracker } from '@/lib/resend/abandoned-cart'
  * Action: 'completed' -> Cancels scheduled emails when user completes purchase
  */
 export async function POST(request: NextRequest): Promise<NextResponse> {
-  let body: any
+  let body: Record<string, unknown>
 
   try {
     body = await request.json()
@@ -37,11 +37,11 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
   }
 
   if (action === 'register') {
-    const id = checkoutId || `checkout_${Date.now()}`
+    const id = typeof checkoutId === 'string' && checkoutId ? checkoutId : `checkout_${Date.now()}`
     const session = globalAbandonedCartTracker.registerCheckout(
       id,
       email,
-      Array.isArray(items) ? items : [],
+      Array.isArray(items) ? (items as Array<{ name: string; quantity: number; price: number }>) : [],
     )
 
     return NextResponse.json({

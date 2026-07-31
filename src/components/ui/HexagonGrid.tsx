@@ -5,7 +5,7 @@ interface HexagonGridProps {
   colorTheme?: 'red-orange-yellow' | 'orange-yellow' | 'subtle'
 }
 
-export function HexagonGrid({ className = '', colorTheme = 'red-orange-yellow' }: HexagonGridProps) {
+export function HexagonGrid({ className = '' }: HexagonGridProps) {
   return (
     <div className={`absolute inset-0 pointer-events-none overflow-hidden ${className}`} aria-hidden="true">
       {/* Top right floating 2D Hexagons */}

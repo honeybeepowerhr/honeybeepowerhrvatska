@@ -8,7 +8,7 @@ import { sendEmail } from '@/lib/resend/client'
  * Validates email with RFC 5322 schema, adds to newsletter list and sends promo coupon code.
  */
 export async function POST(request: NextRequest): Promise<NextResponse> {
-  let body: any
+  let body: Record<string, unknown>
 
   try {
     body = await request.json()
@@ -20,7 +20,8 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
   }
 
   const { email } = body ?? {}
-  const validation = validateNewsletterEmail(email ?? '')
+  const emailInput = typeof email === 'string' ? email : ''
+  const validation = validateNewsletterEmail(emailInput)
 
   if (!validation.success) {
     return NextResponse.json(
@@ -29,7 +30,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
     )
   }
 
-  const cleanEmail = email.trim().toLowerCase()
+  const cleanEmail = emailInput.trim().toLowerCase()
 
   // Send confirmation email via Resend
   await sendEmail({

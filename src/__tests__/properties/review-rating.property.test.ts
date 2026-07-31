@@ -3,7 +3,7 @@
 
 import { describe, it, expect } from 'vitest'
 import * as fc from 'fast-check'
-import { validateReview, reviewSchema } from '@/features/reviews/schema'
+import { validateReview } from '@/features/reviews/schema'
 
 /** Arbitrary valid review input without rating specified */
 const validReviewBaseArb = fc.record({

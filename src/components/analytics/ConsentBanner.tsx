@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
-import { ShieldCheck, Cookie } from 'lucide-react'
+import { Cookie } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { shouldLoadAnalytics } from '@/features/analytics/logic'
 

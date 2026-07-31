@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 export default async function BlogDetailPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
+  await params
   const title = 'Zašto je med bolji od malto-dekstrina na maratonu?'
 
   const articleSchema = {

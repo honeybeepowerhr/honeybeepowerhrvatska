@@ -85,11 +85,6 @@ function MegaMenu({ isOpen, onClose, locale }: MegaMenuProps) {
 
 // ─── CartBadge ────────────────────────────────────────────────────────────────
 
-interface CartBadgeProps {
-  count: number
-  locale: Locale
-}
-
 function CartBadge({ count }: { count: number }) {
   const { openCart } = useCartStore()
 

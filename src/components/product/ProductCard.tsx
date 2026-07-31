@@ -139,7 +139,6 @@ export default function ProductCard({ product, locale = 'hr' }: ProductCardProps
 
   const defaultVariant = product.variants[0]
   const moq = defaultVariant?.minQuantity ?? product.minQuantity ?? 5
-  const addQty = shopMode === 'wholesale' ? moq : 1
 
   // Add to cart logic
   const handleAddToCart = useCallback(() => {

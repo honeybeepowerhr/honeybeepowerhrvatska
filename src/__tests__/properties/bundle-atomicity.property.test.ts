@@ -188,6 +188,7 @@ describe('Bundle Cart Atomicity — Property 16: Bundle Cart Atomicity', () => {
     fc.assert(
       fc.property(existingItemsArb, bundleItemsArb, (existing, bundleItems) => {
         // Always throw on the first bundle item
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const alwaysThrow = (_acc: CartItem[], _item: CartItem): CartItem[] => {
           throw new Error('Immediate failure')
         }
@@ -320,6 +321,7 @@ describe('Bundle Cart Atomicity — Property 16: Bundle Cart Atomicity', () => {
     ]
 
     let called = false
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const failOnFirst = (acc: CartItem[], _item: CartItem): CartItem[] => {
       if (!called) {
         called = true

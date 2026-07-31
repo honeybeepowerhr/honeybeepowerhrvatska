@@ -31,7 +31,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
       revalidated: true,
       now: Date.now(),
     })
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       { success: false, error: 'Revalidation error' },
       { status: 500 },

@@ -7,7 +7,6 @@ import {
   DialogTitle,
   DialogDescription,
 } from '@/components/ui/dialog'
-import { Button } from '@/components/ui/button'
 import { cn, translateFlavour } from '@/lib/utils'
 import type { Locale, ProductSummary, Variant } from '@/types'
 

@@ -25,22 +25,22 @@ describe('Property 1: Page Metadata Integrity', () => {
     fc.assert(
       fc.property(pathArb, (pathname) => {
         const component = Hreflang({ pathname })
-        const children = React.Children.toArray(component.props.children)
+        const children = React.Children.toArray(component.props.children) as Array<
+          React.ReactElement<{ rel?: string; href?: string; hrefLang?: string }>
+        >
 
         // Find canonical link
-        const canonical = children.filter(
-          (child: any) => child?.props?.rel === 'canonical',
-        )
+        const canonical = children.filter((child) => child?.props?.rel === 'canonical')
         expect(canonical).toHaveLength(1)
-        expect((canonical[0] as any).props.href).toContain('/hr')
+        expect(canonical[0].props.href).toContain('/hr')
 
         // Find alternate hreflang links
         const hreflangs = children.filter(
-          (child: any) => child?.props?.rel === 'alternate' && child?.props?.hrefLang,
+          (child) => child?.props?.rel === 'alternate' && child?.props?.hrefLang,
         )
         expect(hreflangs).toHaveLength(6)
 
-        const hrefLangs = hreflangs.map((h: any) => h.props.hrefLang)
+        const hrefLangs = hreflangs.map((h) => h.props.hrefLang)
         expect(hrefLangs).toEqual(expect.arrayContaining(['hr', 'en', 'de', 'sl', 'pl', 'x-default']))
       }),
       { numRuns: 100 },

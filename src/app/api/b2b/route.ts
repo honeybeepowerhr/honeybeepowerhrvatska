@@ -11,7 +11,7 @@ import { saveInquiryToBackup } from '@/lib/inquiries-backup'
  * as an `inquiry` document (inquiryType: 'b2b'), and emails info@planetbio.hr.
  */
 export async function POST(request: NextRequest): Promise<NextResponse> {
-  let body: any
+  let body: unknown
 
   try {
     body = await request.json()

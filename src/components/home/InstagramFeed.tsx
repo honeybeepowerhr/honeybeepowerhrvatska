@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import { Camera } from 'lucide-react'
 
@@ -32,17 +32,6 @@ const STATIC_INSTAGRAM_POSTS = [
 ]
 
 export function InstagramFeed() {
-  const [isLoaded, setIsLoaded] = useState(false)
-
-  useEffect(() => {
-    // 3-second timeout fallback requirement
-    const timer = setTimeout(() => {
-      setIsLoaded(true)
-    }, 3000)
-
-    return () => clearTimeout(timer)
-  }, [])
-
   return (
     <div className="w-full">
       <div className="flex items-center justify-between mb-6">
