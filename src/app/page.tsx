@@ -1,5 +1,4 @@
-import { redirect } from 'next/navigation'
-
+// next-intl middleware handles root "/" routing to default locale ("hr").
 export default function RootPage() {
-  redirect('/hr')
+  return null
 }
