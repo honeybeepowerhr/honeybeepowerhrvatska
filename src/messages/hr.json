@@ -142,6 +142,10 @@
     "successMessage": "Javit ćemo vam se uskoro na {email} s ponudom, cijenom i načinom plaćanja.",
     "termsAccept": "Slanjem upita prihvaćate naše Uvjete korištenja i Politiku privatnosti."
   },
+  "catalogue": {
+    "heading": "Svi proizvodi",
+    "subtitle": "Sto posto prirodna sportska prehrana na bazi meda, liofiliziranog voća i elektrolita."
+  },
   "footer": {
     "products": "Proizvodi",
     "info": "Informacije",

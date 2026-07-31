@@ -142,6 +142,10 @@
     "successMessage": "Wir werden uns in Kürze unter {email} mit einem Angebot bei Ihnen melden.",
     "termsAccept": "Mit dem Absenden stimmen Sie unseren Nutzungsbedingungen und Datenschutzbestimmungen zu."
   },
+  "catalogue": {
+    "heading": "Alle Produkte",
+    "subtitle": "Hundert Prozent natürliche Sporternährung auf Basis von Honig, gefriergetrockneten Früchten und Elektrolyten."
+  },
   "footer": {
     "products": "Produkte",
     "info": "Informationen",

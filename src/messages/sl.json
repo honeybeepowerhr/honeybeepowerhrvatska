@@ -142,6 +142,10 @@
     "successMessage": "Kmalu vas bomo kontaktirali na {email} s ponudbo.",
     "termsAccept": "S posredovanjem povpraševanja sprejemate naše Pogoje uporabe in Politiko zasebnosti."
   },
+  "catalogue": {
+    "heading": "Vsi izdelki",
+    "subtitle": "Sto odstotkov naravna športna prehrana na osnovi medu, liofiliziranega sadja in elektrolitov."
+  },
   "footer": {
     "products": "Izdelki",
     "info": "Informacije",

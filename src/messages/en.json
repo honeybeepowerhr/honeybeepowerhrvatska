@@ -142,6 +142,10 @@
     "successMessage": "We will contact you shortly at {email} with your quote.",
     "termsAccept": "By submitting an inquiry you accept our Terms of Use and Privacy Policy."
   },
+  "catalogue": {
+    "heading": "All products",
+    "subtitle": "One hundred percent natural sports nutrition based on honey, freeze-dried fruit and electrolytes."
+  },
   "footer": {
     "products": "Products",
     "info": "Information",

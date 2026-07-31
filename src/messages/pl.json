@@ -142,6 +142,10 @@
     "successMessage": "Skontaktujemy się z Tobą wkrótce pod adresem {email} z ofertą.",
     "termsAccept": "Wysyłajući zapytanie akceptujesz nasz Regulamin i Politykę prywatności."
   },
+  "catalogue": {
+    "heading": "Wszystkie produkty",
+    "subtitle": "W stu procentach naturalne odżywianie sportowe na bazie miodu, liofilizowanych owoców i elektrolitów."
+  },
   "footer": {
     "products": "Produkty",
     "info": "Informacje",
