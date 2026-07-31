@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useId, useCallback, type ChangeEvent, type FormEvent } from 'react'
-import { useTranslations, useLocale } from 'next-intl'
+import { useTranslations } from 'next-intl'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -11,7 +11,7 @@ import {
   defaultInquiryValues,
   type InquiryFieldErrors,
 } from '@/features/inquiry/schema'
-import type { InquiryFormValues, Locale } from '@/types'
+import type { InquiryFormValues } from '@/types'
 
 // ----------------------------------------------------------
 // Field wrapper — label + input + error message
@@ -81,7 +81,6 @@ interface InquiryFormProps {
 
 export default function InquiryForm({ onSubmit }: InquiryFormProps) {
   const t = useTranslations('checkout')
-  const locale = useLocale() as Locale
 
   const uid = useId()
   const id = (field: string) => `${uid}-${field}`
