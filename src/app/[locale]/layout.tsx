@@ -41,6 +41,10 @@ export const metadata: Metadata = {
     'Energetski gelovi, izotonični napitci i whey proteini na bazi meda. Bez sukraloze, bez umjetnih aditiva.',
 }
 
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}
+
 interface LocaleLayoutProps {
   children: React.ReactNode
   params: Promise<{ locale: string }>
