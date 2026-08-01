@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 import { useTranslations } from 'next-intl'
 import { useCartStore } from '@/features/cart/store'
 import { Building2, ShoppingBag, Info, Lock } from 'lucide-react'
+import { cn } from '@/lib/utils'
 
 interface ShopModeToggleProps {
   compact?: boolean
@@ -22,7 +23,7 @@ export function ShopModeToggle({ compact = false, className = '' }: ShopModeTogg
   if (isLockedOnCheckout) {
     if (compact) {
       return (
-        <div className={`inline-flex items-center gap-1.5 bg-slate-900/90 text-amber-300 px-3 py-1.5 rounded-full border border-amber-500/40 text-xs font-bold ${className}`}>
+        <div className={cn('inline-flex items-center gap-1.5 bg-slate-900/90 text-amber-300 px-3 py-1.5 rounded-full border border-amber-500/40 text-xs font-bold', className)}>
           <Lock className="w-3.5 h-3.5 text-amber-400 shrink-0" />
           <span>{shopMode === 'wholesale' ? t('wholesaleTab') : t('retailTab')}</span>
         </div>
@@ -30,7 +31,7 @@ export function ShopModeToggle({ compact = false, className = '' }: ShopModeTogg
     }
 
     return (
-      <div className={`bg-slate-900 border border-amber-500/40 rounded-2xl p-4 text-white shadow-md ${className}`}>
+      <div className={cn('bg-slate-900 border border-amber-500/40 rounded-2xl p-4 text-white shadow-md', className)}>
         <div className="flex items-center gap-3">
           <div className="p-2 rounded-xl bg-amber-500/20 text-amber-400 shrink-0">
             <Lock className="w-5 h-5" />
@@ -60,7 +61,7 @@ export function ShopModeToggle({ compact = false, className = '' }: ShopModeTogg
 
   if (compact) {
     return (
-      <div className={`inline-flex items-center bg-amber-950/40 p-1 rounded-full border border-amber-500/30 ${className}`}>
+      <div className={cn('inline-flex items-center bg-amber-950/40 p-1 rounded-full border border-amber-500/30', className)}>
         <button
           type="button"
           onClick={() => setShopMode('wholesale')}
@@ -91,7 +92,7 @@ export function ShopModeToggle({ compact = false, className = '' }: ShopModeTogg
   }
 
   return (
-    <div className={`bg-gradient-to-r from-slate-900 via-amber-950/60 to-slate-900 border border-amber-500/20 rounded-2xl p-4 shadow-lg text-white ${className}`}>
+    <div className={cn('bg-gradient-to-r from-slate-900 via-amber-950/60 to-slate-900 border border-amber-500/20 rounded-2xl p-4 shadow-lg text-white', className)}>
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
         {/* Toggle Switch Tabs */}
         <div className="flex items-center bg-slate-950/80 p-1.5 rounded-xl border border-amber-500/30 w-full sm:w-auto">
