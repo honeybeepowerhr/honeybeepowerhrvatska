@@ -14,6 +14,14 @@ interface HeroSectionProps {
 export function HeroSection({ onOpenQuiz }: HeroSectionProps) {
   const t = useTranslations('hero')
 
+  const handleOpenQuiz = () => {
+    if (onOpenQuiz) {
+      onOpenQuiz()
+      return
+    }
+    document.getElementById('quiz-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-amber-50/70 via-white to-white py-12 md:py-24 border-b border-amber-100">
       <div className="container mx-auto px-4 max-w-7xl relative z-10">
@@ -53,7 +61,7 @@ export function HeroSection({ onOpenQuiz }: HeroSectionProps) {
                 type="button"
                 variant="outline"
                 size="lg"
-                onClick={onOpenQuiz}
+                onClick={handleOpenQuiz}
                 className="border-2 border-orange-400 text-orange-950 hover:bg-orange-100/60 font-extrabold px-8 h-13 rounded-2xl text-base bg-white/80 backdrop-blur-sm"
               >
                 {t('ctaSecondary')}
