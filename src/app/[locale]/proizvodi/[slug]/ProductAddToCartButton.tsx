@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
-import { ShoppingCart, Plus, Minus, Building2, ShoppingBag } from 'lucide-react'
+import { ShoppingCart, Plus, Minus, Building2 } from 'lucide-react'
 import { useTranslations, useLocale } from 'next-intl'
 import { Button } from '@/components/ui/button'
 import { useCartStore } from '@/features/cart/store'
@@ -14,28 +14,26 @@ interface ProductAddToCartButtonProps {
 }
 
 export default function ProductAddToCartButton({ product, variant }: ProductAddToCartButtonProps) {
-  const { addItem, openCart, shopMode } = useCartStore()
+  const { addItem, openCart } = useCartStore()
   const t = useTranslations('product')
   const tShop = useTranslations('shopMode')
   const locale = (useLocale() as Locale) || 'hr'
 
   const prodName = product.name[locale] ?? product.name.hr
   const moq = variant.minQuantity ?? product.minQuantity ?? 5
-  const initialQty = shopMode === 'wholesale' ? moq : 1
 
-  const [quantity, setQuantity] = useState(initialQty)
+  const [quantity, setQuantity] = useState(moq)
 
-  // Update quantity whenever shopMode or variant changes
+  // Update quantity whenever variant changes
   useEffect(() => {
-    setQuantity(shopMode === 'wholesale' ? moq : 1)
-  }, [shopMode, moq])
+    setQuantity(moq)
+  }, [moq])
 
-  const step = shopMode === 'wholesale' ? (moq >= 100 ? 50 : 5) : 1
+  const step = moq >= 100 ? 50 : 5
 
   const handleDecrease = () => {
-    const min = shopMode === 'wholesale' ? moq : 1
-    if (quantity > min) {
-      setQuantity((prev) => Math.max(min, prev - step))
+    if (quantity > moq) {
+      setQuantity((prev) => Math.max(moq, prev - step))
     }
   }
 
@@ -59,21 +57,10 @@ export default function ProductAddToCartButton({ product, variant }: ProductAddT
 
   return (
     <div className="space-y-4">
-      {/* Mode info badge */}
+      {/* Minimum order info badge */}
       <div className="p-3.5 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-xs font-semibold text-amber-950 flex items-center gap-2">
-        {shopMode === 'wholesale' ? (
-          <>
-            <Building2 className="w-4 h-4 text-amber-600 shrink-0" />
-            <span>
-              {tShop('wholesaleBadge')} &bull; <strong>{tShop('minOrderNotice', { min: moq })}</strong>
-            </span>
-          </>
-        ) : (
-          <>
-            <ShoppingBag className="w-4 h-4 text-amber-600 shrink-0" />
-            <span>{tShop('retailSurchargeNotice')}</span>
-          </>
-        )}
+        <Building2 className="w-4 h-4 text-amber-600 shrink-0" />
+        <span>{tShop('minOrderNotice', { min: moq })}</span>
       </div>
 
       {/* Quantity & Add to Cart Controls */}
@@ -83,7 +70,7 @@ export default function ProductAddToCartButton({ product, variant }: ProductAddT
           <button
             type="button"
             onClick={handleDecrease}
-            disabled={shopMode === 'wholesale' ? quantity <= moq : quantity <= 1}
+            disabled={quantity <= moq}
             className="p-1 text-gray-600 hover:text-amber-600 disabled:opacity-40 disabled:hover:text-gray-600 transition-colors"
             aria-label="Smanji količinu"
           >

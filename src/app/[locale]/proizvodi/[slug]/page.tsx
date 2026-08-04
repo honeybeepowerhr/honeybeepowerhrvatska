@@ -153,8 +153,6 @@ export default async function ProductOrCategoryPage({ params }: PageProps) {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {categoryProducts.map((prod) => {
-              const variant = prod.variants[0]
-              const priceEur = (variant.price / 100).toFixed(2)
               const prodName = prod.name[currentLocale] ?? prod.name.hr
               const prodDesc = prod.shortDescription[currentLocale] ?? prod.shortDescription.hr
 
@@ -171,8 +169,7 @@ export default async function ProductOrCategoryPage({ params }: PageProps) {
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 font-heading mb-2">{prodName}</h3>
                   <p className="text-sm text-gray-600 mb-4">{prodDesc}</p>
-                  <div className="flex items-center justify-between font-extrabold text-lg text-gray-900">
-                    <span>{priceEur} €</span>
+                  <div className="flex items-center justify-end font-extrabold text-lg text-gray-900">
                     <span className="relative z-20 px-4 py-2 rounded-xl bg-amber-500 text-slate-950 text-xs uppercase font-extrabold">
                       {LABELS.details[currentLocale]}
                     </span>
@@ -195,8 +192,6 @@ export default async function ProductOrCategoryPage({ params }: PageProps) {
   const prodName = product.name[currentLocale] ?? product.name.hr
   const prodDesc = product.shortDescription[currentLocale] ?? product.shortDescription.hr
   const variant = product.variants[0]
-  const priceEur = (variant.price / 100).toFixed(2)
-  const compareAtEur = product.compareAtPrice ? (product.compareAtPrice / 100).toFixed(2) : null
 
   return (
     <div className="py-12 bg-white relative z-10">
@@ -239,17 +234,6 @@ export default async function ProductOrCategoryPage({ params }: PageProps) {
               <span className="text-sm font-bold text-gray-700">
                 {product.averageRating} ({product.reviewCount} {LABELS.reviews[currentLocale]})
               </span>
-            </div>
-
-            <div className="flex items-baseline gap-3">
-              <span className="text-3xl font-black text-gray-900 font-heading">
-                {priceEur} €
-              </span>
-              {compareAtEur && (
-                <span className="text-lg text-gray-400 line-through">
-                  {compareAtEur} €
-                </span>
-              )}
             </div>
 
             <p className="text-base text-gray-700 font-sans leading-relaxed">

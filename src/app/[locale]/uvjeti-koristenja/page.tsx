@@ -17,14 +17,14 @@ export default function TermsPage() {
           Ovi Opći uvjeti poslovanja uređuju odnos između kupca i trgovačkog društva Planet Bio d.o.o., Krndijska ulica 4, 31500 Našice za kupovinu putem webshopa honeybeepower.hr.
         </p>
 
-        <h2 className="text-lg font-bold text-gray-900 pt-4">2. Cijene i plaćanje</h2>
+        <h2 className="text-lg font-bold text-gray-900 pt-4">2. Ponuda i plaćanje</h2>
         <p>
-          Sve cijene u trgovini izražene su u Eurima (€) i uključuju zakonski pripadajući PDV (25%). Plaćanje se vrši kreditnim/debitnim karticama (Stripe), pouzećem ili bankovnom doznakom.
+          Konačna ponuda, cijena i način plaćanja dogovaraju se osobno nakon zaprimljenog upita. Plaćanje je moguće kreditnim/debitnim karticama, pouzećem ili bankovnom doznakom.
         </p>
 
         <h2 className="text-lg font-bold text-gray-900 pt-4">3. Dostava</h2>
         <p>
-          Dostava se vrši na području Republike Hrvatske i Europske Unije u suradnji s kurirskim službama (HP Express, GLS, Overseas). Besplatna dostava odnosi se na sve narudžbe iznad 50,00 €.
+          Dostava se vrši na području Republike Hrvatske i Europske Unije u suradnji s kurirskim službama (HP Express, GLS, Overseas). Rok i trošak dostave dogovaraju se prilikom potvrde upita.
         </p>
       </div>
     </div>

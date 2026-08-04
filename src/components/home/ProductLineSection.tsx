@@ -45,8 +45,6 @@ export function ProductLineSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {REAL_PRODUCTS.map((prod) => {
             const variant = prod.variants[0]
-            const priceEur = (variant.price / 100).toFixed(2)
-            const compareAtEur = prod.compareAtPrice ? (prod.compareAtPrice / 100).toFixed(2) : null
 
             const prodName = prod.name[locale] ?? prod.name.hr
             const prodShortDesc = prod.shortDescription[locale] ?? prod.shortDescription.hr
@@ -108,18 +106,7 @@ export function ProductLineSection() {
                   </p>
                 </div>
 
-                <div className="pt-5 mt-5 border-t border-amber-100 flex items-center justify-between">
-                  <div>
-                    <div className="text-2xl font-black text-gray-900 font-heading">
-                      {priceEur} €
-                    </div>
-                    {compareAtEur && (
-                      <div className="text-xs text-gray-400 line-through">
-                        {compareAtEur} €
-                      </div>
-                    )}
-                  </div>
-
+                <div className="pt-5 mt-5 border-t border-amber-100 flex items-center justify-end">
                   <Button
                     onClick={handleAddToCart}
                     size="sm"

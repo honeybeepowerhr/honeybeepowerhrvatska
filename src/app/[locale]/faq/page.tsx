@@ -14,7 +14,7 @@ const FAQS = [
   },
   {
     q: 'Koliko traje dostava?',
-    a: 'Uobičajeni rok dostave unutar Hrvatske je 1-3 radna dana. Za narudžbe iznad 50 € dostava je besplatna.',
+    a: 'Uobičajeni rok dostave unutar Hrvatske je 1-3 radna dana.',
   },
   {
     q: 'Kako se koristi Honey Power Energy Gel?',

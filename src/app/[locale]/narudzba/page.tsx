@@ -8,18 +8,9 @@ import InquiryForm from '@/components/inquiry/InquiryForm'
 import { useCartStore } from '@/features/cart'
 import type { InquiryFormValues, Locale } from '@/types'
 
-function formatEur(cents: number): string {
-  return (cents / 100).toFixed(2).replace('.', ',') + ' €'
-}
-
 function OrderSummary() {
   const t = useTranslations('checkout')
-  const tShop = useTranslations('shopMode')
-  const { items, subtotalAmount, packagingSurcharge, totalAmount, shopMode } = useCartStore()
-
-  const subtotal = subtotalAmount()
-  const surcharge = packagingSurcharge()
-  const total = totalAmount()
+  const { items } = useCartStore()
 
   return (
     <aside
@@ -45,37 +36,11 @@ function OrderSummary() {
                 {item.variantLabel} × {item.quantity}
               </p>
             </div>
-            <span className="text-sm font-semibold text-charcoal shrink-0">
-              {formatEur(item.unitPrice * item.quantity)}
-            </span>
           </li>
         ))}
       </ul>
 
-      <div className="space-y-2 border-t border-gray-100 pt-4 text-sm">
-        <div className="flex justify-between font-medium text-gray-600">
-          <span>{tShop('subtotal')}</span>
-          <span>{formatEur(subtotal)}</span>
-        </div>
-
-        {shopMode === 'retail' && surcharge > 0 && (
-          <div className="flex justify-between font-semibold text-amber-700 bg-amber-50 p-2 rounded-xl border border-amber-200/60">
-            <span>{tShop('packagingSurcharge')}</span>
-            <span>+{formatEur(surcharge)}</span>
-          </div>
-        )}
-
-        <div className="flex justify-between font-black text-lg text-charcoal pt-2 border-t border-gray-100">
-          <span>Suma:</span>
-          <span className="text-amber-600 font-heading">{formatEur(total)}</span>
-        </div>
-
-        <p className="text-xs text-gray-400 pt-1">
-          {t('disclaimer')}
-        </p>
-      </div>
-
-      <div className="flex flex-col gap-2 pt-2">
+      <div className="flex flex-col gap-2 pt-2 border-t border-gray-100">
         <div className="flex items-center gap-2 text-xs text-gray-500">
           <Clock className="w-3.5 h-3.5 text-amber-500 shrink-0" aria-hidden="true" />
           {t('replyNotice')}

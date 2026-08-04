@@ -10,15 +10,6 @@ import {
 import { cn, translateFlavour } from '@/lib/utils'
 import type { Locale, ProductSummary, Variant } from '@/types'
 
-// ─── Price helpers ────────────────────────────────────────────────────────────
-
-function formatPrice(cents: number): string {
-  return (cents / 100).toLocaleString('hr-HR', {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
-  })
-}
-
 // ─── Props ────────────────────────────────────────────────────────────────────
 
 interface VariantSelectModalProps {
@@ -54,12 +45,6 @@ export default function VariantSelectModal({
 
         <ul role="list" className="mt-2 space-y-2">
           {product.variants.map((variant) => {
-            const effectivePrice = variant.price ?? product.basePrice
-            const effectiveCompare = variant.compareAtPrice ?? product.compareAtPrice
-            const hasPromo =
-              effectiveCompare !== null &&
-              effectiveCompare !== undefined &&
-              effectiveCompare > effectivePrice
             const outOfStock = variant.stockLevel <= 0
 
             const label = [translateFlavour(variant.flavour, locale), variant.size]
@@ -83,7 +68,7 @@ export default function VariantSelectModal({
                       ? 'opacity-50 cursor-not-allowed border-gray-200 bg-gray-50'
                       : 'border-gray-200 bg-white hover:border-amber-400 hover:bg-amber-50 cursor-pointer',
                   )}
-                  aria-label={`${label} – ${formatPrice(effectivePrice)} €${outOfStock ? ' – rasprodano' : ''}`}
+                  aria-label={`${label}${outOfStock ? ' – rasprodano' : ''}`}
                 >
                   <span className="flex flex-col gap-0.5 min-w-0">
                     <span className="text-sm font-semibold text-charcoal truncate">
@@ -92,22 +77,6 @@ export default function VariantSelectModal({
                     {outOfStock && (
                       <span className="text-xs text-red-500 font-medium">Rasprodano</span>
                     )}
-                  </span>
-
-                  <span className="flex items-center gap-2 shrink-0">
-                    {hasPromo && (
-                      <span className="text-sm text-gray-400 line-through" aria-hidden="true">
-                        {formatPrice(effectiveCompare!)} €
-                      </span>
-                    )}
-                    <span
-                      className={cn(
-                        'text-sm font-bold',
-                        hasPromo ? 'text-amber-600' : 'text-charcoal',
-                      )}
-                    >
-                      {formatPrice(effectivePrice)} €
-                    </span>
                   </span>
                 </button>
               </li>

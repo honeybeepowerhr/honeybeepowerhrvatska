@@ -5,7 +5,6 @@ import { notFound } from 'next/navigation'
 import { Barlow_Condensed, Inter } from 'next/font/google'
 import { locales } from '@/features/i18n/config'
 import type { Locale } from '@/types'
-import InfoBar from '@/components/layout/InfoBar'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import { CartPanel } from '@/components/cart/CartPanel'
@@ -75,8 +74,6 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         <NextIntlClientProvider messages={messages}>
           {/* Global soft ambient background */}
           <AmbientBackground />
-          {/* Free-shipping info bar — 5 EUR threshold = 500 cents */}
-          <InfoBar freeShippingThreshold={5000} locale={locale as Locale} />
           {/* Sticky header */}
           <Header />
           {/* Page content */}

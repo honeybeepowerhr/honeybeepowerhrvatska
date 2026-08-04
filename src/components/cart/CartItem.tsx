@@ -12,8 +12,6 @@ interface CartItemProps {
 
 export function CartItem({ item, onRemove, onUpdateQuantity }: CartItemProps) {
   const t = useTranslations('cart')
-  const formattedPrice = (item.unitPrice / 100).toFixed(2)
-  const formattedTotal = ((item.unitPrice * item.quantity) / 100).toFixed(2)
 
   return (
     <li className="flex gap-3 py-4 border-b border-border last:border-0 items-center">
@@ -40,7 +38,6 @@ export function CartItem({ item, onRemove, onUpdateQuantity }: CartItemProps) {
         {item.variantLabel && (
           <p className="text-xs text-amber-700 font-semibold">{item.variantLabel}</p>
         )}
-        <p className="text-xs text-gray-500 font-medium">{formattedPrice} {t('perPiece')}</p>
 
         {/* Quantity controls + remove */}
         <div className="flex items-center justify-between mt-1">
@@ -68,7 +65,6 @@ export function CartItem({ item, onRemove, onUpdateQuantity }: CartItemProps) {
           </div>
 
           <div className="flex items-center gap-3">
-            <span className="text-sm font-black text-gray-900 font-heading">{formattedTotal} €</span>
             <button
               type="button"
               onClick={onRemove}

@@ -98,7 +98,6 @@ export function QuizSection({ onClose }: QuizSectionProps) {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {recommendations.map((rec) => {
-                  const priceEur = (rec.price / 100).toFixed(2)
                   return (
                     <div
                       key={rec.productId}
@@ -121,11 +120,7 @@ export function QuizSection({ onClose }: QuizSectionProps) {
                         <p className="text-sm text-gray-600 mt-2 leading-relaxed font-sans font-medium">{rec.matchReason}</p>
                       </div>
 
-                      <div className="mt-6 pt-4 border-t border-amber-200 flex items-center justify-between">
-                        <div className="text-2xl font-black text-gray-900 font-heading">
-                          {priceEur} €
-                        </div>
-
+                      <div className="mt-6 pt-4 border-t border-amber-200 flex items-center justify-end">
                         <Button
                           onClick={() => handleAddToCart(rec)}
                           className="bg-amber-500 hover:bg-amber-600 text-slate-950 font-black rounded-xl px-5 shadow-md active:scale-95 transition-transform"

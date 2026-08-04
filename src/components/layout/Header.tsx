@@ -8,7 +8,6 @@ import { useLocale } from 'next-intl'
 import { Menu, X, Search, ShoppingCart, ChevronDown } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import LanguageSwitcher from './LanguageSwitcher'
-import { ShopModeToggle } from './ShopModeToggle'
 import type { Locale } from '@/types'
 import { useCartStore } from '@/features/cart'
 import { SearchOverlay } from '@/features/search/SearchOverlay'
@@ -209,15 +208,9 @@ function MobileMenu({ isOpen, onClose, locale }: MobileMenuProps) {
           </ul>
         </div>
 
-        {/* Shop Mode & Language switcher */}
+        {/* Language switcher */}
         <div className="px-5 py-4 border-t border-gray-100 space-y-3">
-          <p className="text-xs font-semibold uppercase tracking-widest text-gray-400">
-            Način kupovine
-          </p>
-          <ShopModeToggle />
-          <div className="pt-2">
-            <LanguageSwitcher />
-          </div>
+          <LanguageSwitcher />
         </div>
       </nav>
     </div>
@@ -386,9 +379,6 @@ export default function Header({ cartItemCount = 0 }: HeaderClientProps) {
 
           {/* Right-side actions */}
           <div className="flex items-center gap-1.5 ml-auto">
-            {/* Shop mode toggle (Wholesale vs Retail) */}
-            <ShopModeToggle compact className="hidden sm:inline-flex" />
-
             {/* Search trigger */}
             <button
               type="button"

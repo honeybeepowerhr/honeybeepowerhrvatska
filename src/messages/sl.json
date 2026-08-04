@@ -84,8 +84,8 @@
   "b2bBlock": {
     "badge": "Za Trgovine, Fitnese in Klube",
     "title": "Želite Postati Uradni Partner ali Distributer?",
-    "subtitle": "Nudimo privlačne veleprodajne pogoje, hitro dostavo in marketinško podporo za fitnese, specializirane trgovine in športne klube.",
-    "cta": "Zahtevaj Veleprodajni Cenik"
+    "subtitle": "Nudimo privlačne pogoje za količinska naročila, hitro dostavo in marketinško podporo za fitnese, specializirane trgovine in športne klube.",
+    "cta": "Zahtevaj Cenik"
   },
   "trust": {
     "natural": "100% naravno",
@@ -201,8 +201,8 @@
   "b2bPage": {
     "badge": "B2B Partner Program",
     "title": "Postanite Distributer ali Partner Honey Bee Power",
-    "subtitle": "Ponudite svojim strankam, tekmovalcem in članom kluba 100% naravno športno prehrano na osnovi medu. Nudimo privlačne veleprodajne pogoje in hitro dostavo.",
-    "benefit1Title": "Privlačne Veleprodajne Marže",
+    "subtitle": "Ponudite svojim strankam, tekmovalcem in članom kluba 100% naravno športno prehrano na osnovi medu. Nudimo privlačne pogoje za količinska naročila in hitro dostavo.",
+    "benefit1Title": "Privlačni Popusti na Količino",
     "benefit1Desc": "Posebni popusti na količino za trgovine, lekarne, fitnes centre in športne klube.",
     "benefit2Title": "Hitra Logistika in Dostava",
     "benefit2Desc": "Dostava iz skladišča v Našicah v 24–48 urah za Hrvaško in regijo.",
@@ -278,7 +278,7 @@
     "faqTitle": "Pogosta Vprašanja (FAQ)",
     "faqBadge": "Pomoć in Podpora",
     "shippingTitle": "Dostava in Plačilo",
-    "shippingNotice": "🚚 Brezplačna dostava: Za vsa naročila nad 50,00 € je dostava na Hrvaškem popolnoma brezplačna!",
+    "shippingNotice": "🚚 Dostava: Rok in strošek dostave se dogovorimo osebno po potrditvi vašega povpraševanja.",
     "paymentMethodsTitle": "Načini Plačila",
     "deliveryTermsTitle": "Roki Dostave"
   },

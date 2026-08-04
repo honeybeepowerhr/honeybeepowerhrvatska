@@ -28,15 +28,6 @@ function sanityImageUrl(assetRef: string, width = 400, height = 400): string {
   return `https://cdn.sanity.io/images/${projectId}/${dataset}/${idAndDims}.${ext}?w=${width}&h=${height}&fit=crop&auto=format`
 }
 
-// ─── Price helpers ────────────────────────────────────────────────────────────
-
-function formatPrice(cents: number): string {
-  return (cents / 100).toLocaleString('hr-HR', {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
-  })
-}
-
 // ─── Star rating ──────────────────────────────────────────────────────────────
 
 interface StarRatingProps {
@@ -109,7 +100,6 @@ interface ProductCardProps {
 export default function ProductCard({ product, locale = 'hr' }: ProductCardProps) {
   const addItem = useCartStore((s) => s.addItem)
   const openCart = useCartStore((s) => s.openCart)
-  const shopMode = useCartStore((s) => s.shopMode)
   const t = useTranslations('product')
   const tShop = useTranslations('shopMode')
 
@@ -123,13 +113,7 @@ export default function ProductCard({ product, locale = 'hr' }: ProductCardProps
   const imageAssetRef = product.mainImage?.asset?._ref
   const imageSrc = imageAssetRef ? sanityImageUrl(imageAssetRef) : null
 
-  // Pricing
   const basePrice = product.basePrice
-  const compareAtPrice = product.compareAtPrice
-  const hasPromo =
-    compareAtPrice !== null &&
-    compareAtPrice !== undefined &&
-    compareAtPrice > basePrice
 
   // Rating
   const hasRating =
@@ -151,7 +135,7 @@ export default function ProductCard({ product, locale = 'hr' }: ProductCardProps
     const variant = product.variants[0]
     if (!variant) return
 
-    const qty = shopMode === 'wholesale' ? (variant.minQuantity ?? product.minQuantity ?? 5) : 1
+    const qty = variant.minQuantity ?? product.minQuantity ?? 5
 
     addItem({
       productId: product._id,
@@ -164,11 +148,11 @@ export default function ProductCard({ product, locale = 'hr' }: ProductCardProps
       quantity: qty,
     })
     openCart()
-  }, [product, name, imageSrc, basePrice, addItem, openCart, shopMode])
+  }, [product, name, imageSrc, basePrice, addItem, openCart])
 
   const handleVariantSelect = useCallback(
     (variant: Variant) => {
-      const qty = shopMode === 'wholesale' ? (variant.minQuantity ?? product.minQuantity ?? 5) : 1
+      const qty = variant.minQuantity ?? product.minQuantity ?? 5
 
       addItem({
         productId: product._id,
@@ -182,7 +166,7 @@ export default function ProductCard({ product, locale = 'hr' }: ProductCardProps
       })
       openCart()
     },
-    [product, name, imageSrc, basePrice, addItem, openCart, shopMode],
+    [product, name, imageSrc, basePrice, addItem, openCart],
   )
 
   const prefix = locale === 'hr' ? '' : `/${locale}`
@@ -227,19 +211,10 @@ export default function ProductCard({ product, locale = 'hr' }: ProductCardProps
             </div>
           )}
 
-          {/* Promo badge */}
-          {hasPromo && (
-            <span className="absolute top-3 left-3 bg-amber-500 text-white text-[11px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow-sm">
-              Akcija
-            </span>
-          )}
-
-          {/* Wholesale MOQ Badge */}
-          {shopMode === 'wholesale' && (
-            <span className="absolute top-3 right-3 bg-slate-950/90 text-amber-300 text-[10px] font-bold px-2 py-0.5 rounded-full shadow-sm border border-amber-500/30">
-              {tShop('minOrderNotice', { min: moq })}
-            </span>
-          )}
+          {/* Minimum order badge */}
+          <span className="absolute top-3 right-3 bg-slate-950/90 text-amber-300 text-[10px] font-bold px-2 py-0.5 rounded-full shadow-sm border border-amber-500/30">
+            {tShop('minOrderNotice', { min: moq })}
+          </span>
         </div>
 
         {/* Body */}
@@ -263,21 +238,6 @@ export default function ProductCard({ product, locale = 'hr' }: ProductCardProps
               reviewCount={product.reviewCount!}
             />
           )}
-
-          {/* Pricing */}
-          <div className="flex items-baseline gap-2 flex-wrap">
-            <span className="text-sm font-bold text-charcoal">
-              {t('from')} {formatPrice(basePrice)} €
-            </span>
-            {hasPromo && (
-              <span
-                className="text-sm text-gray-400 line-through"
-                aria-label={`Stara cijena: ${formatPrice(compareAtPrice!)} €`}
-              >
-                {formatPrice(compareAtPrice!)} €
-              </span>
-            )}
-          </div>
 
           {/* Actions — relative z-20 keeps this above the full-card link overlay */}
           <div className="relative z-20 flex gap-2 mt-auto pt-1">

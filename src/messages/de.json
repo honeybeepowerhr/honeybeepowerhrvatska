@@ -84,8 +84,8 @@
   "b2bBlock": {
     "badge": "Für Geschäfte, Fitnessstudios & Vereine",
     "title": "Möchten Sie offizieller Partner oder Händler werden?",
-    "subtitle": "Wir bieten attraktive Großhandelskonditionen, schnelle Lieferung und Marketingunterstützung für Fitnessstudios, Fachgeschäfte und Sportvereine.",
-    "cta": "Großhandelspreisliste anfordern"
+    "subtitle": "Wir bieten attraktive Mengenkonditionen, schnelle Lieferung und Marketingunterstützung für Fitnessstudios, Fachgeschäfte und Sportvereine.",
+    "cta": "Preisliste anfordern"
   },
   "trust": {
     "natural": "100% natürlich",
@@ -201,8 +201,8 @@
   "b2bPage": {
     "badge": "B2B-Partnerprogramm",
     "title": "Werden Sie Honey Bee Power Händler oder Partner",
-    "subtitle": "Bieten Sie Ihren Kunden, Sportlern und Vereinsmitgliedern 100% natürliche Sporternährung auf Honigbasis an. Wir bieten attraktive Großhandelskonditionen und schnelle Lieferung.",
-    "benefit1Title": "Attraktive Großhandelsmargen",
+    "subtitle": "Bieten Sie Ihren Kunden, Sportlern und Vereinsmitgliedern 100% natürliche Sporternährung auf Honigbasis an. Wir bieten attraktive Mengenkonditionen und schnelle Lieferung.",
+    "benefit1Title": "Attraktive Mengenrabatte",
     "benefit1Desc": "Spezielle Mengenrabatte für Geschäfte, Apotheken, Fitnessstudios und Sportvereine.",
     "benefit2Title": "Schnelle Logistik & Lieferung",
     "benefit2Desc": "Versand aus unserem Lager in Našice innerhalb von 24–48 Stunden für Kroatien und die Region.",
@@ -278,7 +278,7 @@
     "faqTitle": "Häufig gestellte Fragen (FAQ)",
     "faqBadge": "Hilfe & Support",
     "shippingTitle": "Lieferung & Zahlung",
-    "shippingNotice": "🚚 Kostenloser Versand: Für alle Bestellungen über 50,00 € ist die Lieferung innerhalb Kroatiens völlig kostenlos!",
+    "shippingNotice": "🚚 Versand: Lieferzeit und -kosten vereinbaren wir persönlich nach Bestätigung Ihrer Anfrage.",
     "paymentMethodsTitle": "Zahlungsarten",
     "deliveryTermsTitle": "Lieferzeiten"
   },

@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import type { Locale } from '@/types'
 import CatalogueGrid from '@/components/product/CatalogueGrid'
-import { ShopModeToggle } from '@/components/layout/ShopModeToggle'
 import { REAL_PRODUCTS } from '@/lib/products-data'
 
 export const revalidate = 60
@@ -31,9 +30,6 @@ export default async function ProizvodiPage({ params }: ProizvodiPageProps) {
           {t('subtitle')}
         </p>
       </div>
-
-      {/* Mode selection banner: Wholesale vs Retail */}
-      <ShopModeToggle />
 
       <CatalogueGrid products={REAL_PRODUCTS} locale={locale} />
     </div>

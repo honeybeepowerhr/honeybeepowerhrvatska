@@ -84,8 +84,8 @@
   "b2bBlock": {
     "badge": "Dla Sklepów, Siłowni & Klubów",
     "title": "Chcesz Zostać Oficjalnym Partnerem lub Dystrybutorem?",
-    "subtitle": "Oferujemy atrakcyjne warunki hurtowe, szybką dostawę i wsparcie marketingowe dla siłowni, sklepów i klubów.",
-    "cta": "Zapytaj o Cennik Hurtowy"
+    "subtitle": "Oferujemy atrakcyjne warunki dla zamówień ilościowych, szybką dostawę i wsparcie marketingowe dla siłowni, sklepów i klubów.",
+    "cta": "Zapytaj o Cennik"
   },
   "trust": {
     "natural": "100% naturalne",
@@ -212,9 +212,9 @@
   "b2bPage": {
     "badge": "Partnerstwo B2B",
     "title": "Zostań Dystrybutorem lub Partnerem Honey Bee Power",
-    "subtitle": "Oferujemy atrakcyjne warunki hurtowe dla sklepów sportowych, siłowni i dystrybutorów.",
-    "benefit1Title": "Wysokie Marže",
-    "benefit1Desc": "Konkurencyjne ceny hurtowe i elastyczne progi ilościowe.",
+    "subtitle": "Oferujemy atrakcyjne warunki dla zamówień ilościowych dla sklepów sportowych, siłowni i dystrybutorów.",
+    "benefit1Title": "Wysokie Rabaty Ilościowe",
+    "benefit1Desc": "Konkurencyjne ceny przy zamówieniach ilościowych i elastyczne progi ilościowe.",
     "benefit2Title": "Szybka Dostawa",
     "benefit2Desc": "Bezpośrednia dostawa z magazynu w ciągu 48-72h.",
     "benefit3Title": "Wsparcie Marketingowe",
@@ -277,7 +277,7 @@
     "faqTitle": "Najczęściej zadawane pytania (FAQ)",
     "faqBadge": "Pomoc & Wsparcie",
     "shippingTitle": "Dostawa i Płatność",
-    "shippingNotice": "🚚 Darmowa dostawa: Dla wszystkich zamówień powyżej 50,00 € dostawa jest całkowicie darmowa!",
+    "shippingNotice": "🚚 Dostawa: Termin i koszt dostawy ustalamy osobiście po potwierdzeniu Twojego zapytania.",
     "paymentMethodsTitle": "Metody Płatności",
     "deliveryTermsTitle": "Terminy Dostawy"
   },

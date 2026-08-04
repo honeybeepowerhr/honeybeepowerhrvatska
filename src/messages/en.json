@@ -84,8 +84,8 @@
   "b2bBlock": {
     "badge": "For Shops, Gyms & Clubs",
     "title": "Want to Become an Official Partner or Distributor?",
-    "subtitle": "We offer attractive wholesale terms, fast delivery, and marketing support for gyms, specialized shops, and sports clubs.",
-    "cta": "Request Wholesale Price List"
+    "subtitle": "We offer attractive bulk-order terms, fast delivery, and marketing support for gyms, specialized shops, and sports clubs.",
+    "cta": "Request Price List"
   },
   "trust": {
     "natural": "100% Natural",
@@ -201,8 +201,8 @@
   "b2bPage": {
     "badge": "B2B Partner Program",
     "title": "Become a Honey Bee Power Distributor or Partner",
-    "subtitle": "Offer your customers, competitors, and club members 100% natural honey-based sports nutrition. We offer attractive wholesale conditions and fast delivery.",
-    "benefit1Title": "Attractive Wholesale Margins",
+    "subtitle": "Offer your customers, competitors, and club members 100% natural honey-based sports nutrition. We offer attractive bulk-order conditions and fast delivery.",
+    "benefit1Title": "Attractive Bulk Discounts",
     "benefit1Desc": "Special bulk discounts for shops, pharmacies, gyms, and sports clubs.",
     "benefit2Title": "Fast Logistics & Delivery",
     "benefit2Desc": "Dispatch from our warehouse in Našice within 24-48h for Croatia and the region.",
@@ -278,7 +278,7 @@
     "faqTitle": "Frequently Asked Questions (FAQ)",
     "faqBadge": "Help & Support",
     "shippingTitle": "Shipping & Payment",
-    "shippingNotice": "🚚 Free shipping: For all orders over €50.00, delivery within Croatia is completely free!",
+    "shippingNotice": "🚚 Shipping: We agree the delivery time and cost with you personally once your inquiry is confirmed.",
     "paymentMethodsTitle": "Payment Methods",
     "deliveryTermsTitle": "Delivery Times"
   },
